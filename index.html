@@ -39,6 +39,19 @@
         <h3>Litter on UK Beaches</h3>
         <p>Share of litter found by brand, 2021</p>
         <div class="chart" id="Chart2"> </div>
+    
+        <h3>Week 2</h3>
+        <h3<IMF Credit Outstanding</h3>
+        <p>This chart hosts CSV data on IMF credit over time.</p>
+        <div class="chart" id="Chart3"></div>
+        
+        <h3<IMF Lending relative to GDP</h3>
+        <p>This chart divides the data above through by GDP to show IMF lending as a percentage of GDP.</p>
+        <div class="chart" id="Chart4"></div>
+
+<p>The IMF lent most, relative to GDP, in 1984, suggesting that this was a riskier year to invest in than today, when lending is at a peak only in absolute terms.</p>
+        
+  
     </div> 
 </body>
 
@@ -47,10 +60,14 @@
     //Define charts:
     var myChart1 = "chart1.json";
     var myChart2 = "chart2.json";
+    var myChart3 = "w2chart1.json";
+    var myChart4 = "imflendingaspercentageofgdp.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
 </script>
 
 </html>
