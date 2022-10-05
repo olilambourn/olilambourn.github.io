@@ -1,0 +1,47 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "data": {
+       "url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/IMF%20Credit.csv",
+       "format": {
+           "type":"csv",
+           "property": "Years"}},
+
+
+    "title": {
+        "text": "IMF CREDIT OUTSTANDING TOTAL 1984-2022",
+        "subtitle": "in SDRs",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"},
+
+"transform": [
+  {"calculate": "datum.Totals/1000000000", "as": "billions"}
+  ],
+
+    "width":300,
+    "height":300,
+
+    "mark":{
+        "type": "bar",
+        "color":"rgb(0, 47, 167)",
+        "strokeWidth":2,
+        "opacity":1},
+ 
+
+    "encoding": {
+      "x": {
+          "field": "Years",
+          "type": "temporal",
+          "title":null},
+      "y": {
+          "field": "billions",
+          "type": "quantitative",
+          "title":null}
+   
+   , "transform": [
+  {"calculate": "datum.Totals/1000000000", "as": "billions"}
+  ],
+    }
+}
