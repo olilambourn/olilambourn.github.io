@@ -26,18 +26,6 @@ h1, h3, p{
     max-width: 600px;
     background-color: bisque;
 }
-.container{
-    height:auto;
-    width:20%;
-}
-.container .chart{
-    width:100%;
-    display:block;
-    transition;transform 2
-}
-.container:hover .chart{
-    transform: scale(1.15);
-}
 
 /* Set the apperance of the class, chart */
 .chart{
@@ -47,4 +35,9 @@ h1, h3, p{
     border-style: solid;
     border-radius: 5px;
     border-color: red;
+    transition: transform .2s;
+}
+
+.chart:hover {
+    transform: scale(1.5);
 }
