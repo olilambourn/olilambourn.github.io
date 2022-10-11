@@ -26,8 +26,17 @@ h1, h3, p{
     max-width: 600px;
     background-color: bisque;
 }
-.chart1: hover .chart1.json
-transform: scale(1.15);
+.container{
+    height:auto;
+    width:20%;
+}
+.container json{
+    width:100%;
+    display:block;
+    transition;transform 2
+}
+.container:hover json{
+    transform: scale(1.15);
 }
 
 /* Set the apperance of the class, chart */
