@@ -30,12 +30,12 @@ h1, h3, p{
     height:auto;
     width:20%;
 }
-.container chart{
+.container .chart{
     width:100%;
     display:block;
     transition;transform 2
 }
-.container:hover chart{
+.container:hover .chart{
     transform: scale(1.15);
 }
 
