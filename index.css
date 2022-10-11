@@ -1,0 +1,130 @@
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/* Set the background color for my page: */
+body{
+    background-color: rgb(255,193,111);
+ 
+}
+
+
+/* Choose the appearance of the tags, h1, h3 and p: */
+h1, h3, p{
+    color:rgb(17, 17, 17);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+    
+.myWeek1{
+    margin: auto;
+    max-width: 600px;
+    background-color: bisque;
+}
+
+/* Set the apperance of the class, chart */
+.chart{
+    background-color: orange;
+    width:330px;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: red;
+    transition: transform .2s;
+}
+
+.chart:hover {
+    transform: scale(1.5);
+}
+
+/*Links*/
+
+a{
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#link1{
+    background-color: rgba(188, 188, 188, 0.5);
+
+    padding:10px;
+    
+    border:2.5px;
+    border-color:rgb(60, 63, 222);
+    border-style: solid;
+    border-radius: 2px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight:650;
+    color:rgb(11, 75, 128);
+    text-decoration: none;
+    text-align: center;
+    
+}
+#link1:hover{
+
+    background-color: rgba(200, 200, 200, 0.9);
+    border:2.1px;
+    border-color:rgb(10, 100, 200);
+    border-style: solid;
+    text-align: center;
+    }
+
+
+#link2{
+    background-color: rgba(188, 188, 188, 0.5);
+
+    padding:10px;
+    
+    border:2.5px;
+    border-color:rgb(60, 63, 222);
+    border-style: solid;
+    border-radius: 2px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight:650;
+    color:rgb(11, 75, 128);
+    text-decoration: none;
+    text-align: center;
+    
+}
+#link2:hover{
+
+    background-color: rgba(200, 200, 200, 0.9);
+    border:2.1px;
+    border-color:rgb(10, 100, 200);
+    border-style: solid;
+    text-align: center;
+    }
+
+
+#link3{
+    background-color: rgba(188, 188, 188, 0.5);
+
+    padding:10px;
+    
+    border:2.5px;
+    border-color:rgb(60, 63, 222);
+    border-style: solid;
+    border-radius: 2px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight:650;
+    color:rgb(11, 75, 128);
+    text-decoration: none;
+    text-align: center;
+    
+}
+#link3:hover{
+
+    background-color: rgba(200, 200, 200, 0.9);
+    border:2.1px;
+    border-color:rgb(10, 100, 200);
+    border-style: solid;
+    text-align: center;
+}
