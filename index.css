@@ -47,12 +47,14 @@ a{
     margin: auto;
 
 }
+ 
 
 
 #link1{
     background-color: rgba(188, 188, 188, 0.5);
 
     padding:10px;
+    margin-left: 30%;
     
     border:2.5px;
     border-color:rgb(60, 63, 222);
@@ -80,6 +82,7 @@ a{
     background-color: rgba(188, 188, 188, 0.5);
 
     padding:10px;
+    margin-left: 60%;
     
     border:2.5px;
     border-color:rgb(60, 63, 222);
@@ -107,6 +110,7 @@ a{
     background-color: rgba(188, 188, 188, 0.5);
 
     padding:10px;
+    margin-left: 90%;
     
     border:2.5px;
     border-color:rgb(60, 63, 222);
