@@ -5,8 +5,7 @@
 /* Set the background color for my page: */
 body{
     background-color: rgb(255,193,111);
- 
-}
+ }
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
@@ -16,8 +15,6 @@ h1, h3, p{
     text-align: center;
 }
 
-
-
 /*Links*/
 
 a{
@@ -25,7 +22,9 @@ a{
     border-color: black;
     border-style: solid;
     text-align: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 
 }
  
