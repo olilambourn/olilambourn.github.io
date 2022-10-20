@@ -19,17 +19,9 @@ body{
     margin-right: auto;
     width: 50%;
     transition: transform .2s;
-  }  
-    {
     height: 100%;
     margin:0;
     padding:0;
-}
-
-div {
-    position:relative;
-    height: 100%;
-    width:100%;
 }
 
 div .chart {
