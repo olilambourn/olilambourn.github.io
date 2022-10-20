@@ -20,10 +20,7 @@ body{
     width: 50%;
     transition: transform .2s;
 }
-.chart:center {
-    display: block;
-    margin: 0 auto;
-}
+
 
 .chart:hover {
     transform: scale(1.5);
