@@ -1,8 +1,8 @@
 {"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "title": {
-      "text": "IMF Credit Outstanding as a percentage of World GDP",
-      "subtitle":"for all members from 1984 - 2021 (in SDRs). Source: IMF and World Bank",
+      "text": "IMF Credit Outstanding as a % of World GDP",
+      "subtitle":"for all members 1984-2021 (in SDRs) Source: IMF & World Bank",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "anchor": "start",
