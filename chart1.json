@@ -22,8 +22,8 @@
   "XYZrepeat": {"layer": ["Kenya", "Congo, DR", "UK", "Japan"]},
   "repeat": {"layer": ["Kenya_Index", "CongoDR_Index", "UK_Index", "Japan_Index"]},
   
-  "height": 300,
-  "width": 300,   
+  "height": 200,
+  "width": 200,   
   
   "spec": {
       "mark": {   
