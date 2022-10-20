@@ -14,8 +14,8 @@
     {"calculate": "datum.Totals/1000000000", "as": "billions"}
   ],
   
-  "height": 300,
-  "width": 300,
+  "height": 200,
+  "width": 200,
 
   "mark": {
     "type": "bar",
