@@ -10,7 +10,7 @@ body{
     /* Set the apperance of the class, chart */
 .chart{
     background-color: orange;
-    width:330px;
+    width:260px;
     border-width: 10px;
     border-style: solid;
     border-radius: 5px;
