@@ -20,7 +20,7 @@ body{
     width: 50%;
     transition: transform .2s;
 }
-.chart.center {
+.chart:center {
     display: block;
     margin: 0 auto;
 }
