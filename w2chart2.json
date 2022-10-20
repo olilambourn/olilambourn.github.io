@@ -12,8 +12,8 @@
   "data":{"url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/IMFCREDITGDP.csv"},
 
   
-  "height": 300,
-  "width": 300,
+  "height": 200,
+  "width": 200,
 
   "mark": {
     "type": "bar",
