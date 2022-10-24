@@ -1,6 +1,13 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A simple bar chart with embedded data.",
+    "title": {
+      "text": "Hours Studied",
+      "subtitle":["Hours spent studying each day of the first week of May 2022"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
     "data": {
       "values": [ 
         {"a": "A", "Hours of study": 6, "Date":"2022-05-02"},
