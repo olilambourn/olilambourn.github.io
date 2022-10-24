@@ -22,7 +22,5 @@
 "color": {
               "datum": {"repeat": "layer"},
               "scale": {"range": "green"},
-              "legend": {
-                "orient":"top-left",
-                "fillColor":"white"}}
+             
   }
