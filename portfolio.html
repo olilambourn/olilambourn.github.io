@@ -60,7 +60,7 @@
         <hr/>
 
         <h3><b>Week 2</b></h3>
-        <p>The second task was to build three live charts and embed them onto your page. The first two are ran directly from my GitHub, and the third chart delivered directly through an API.</p>       
+        <p>The second task was to build three live charts and embed them onto my page. The first two are ran directly from my GitHub, and the third chart delivered directly through an API.</p>       
         <h3><b>IMF Credit Outstanding</b></h3>
         <p>This chart hosts CSV data on IMF credit over time.</p>
         <div class="chart" id="Chart3"> </div>
@@ -74,7 +74,9 @@
         <hr/>
        
     <h3>Week 3</h3>
-    <p> This weeks task was to embed a chart converting CSV data into a dictionary format. This chart depicts gilt strip yields from now until 2055.
+    <p> This weeks task was to embed a chart converting CSV data into a dictionary format. This chart depicts gilt strip yields from now until 2055.</p>
+    <p><b>Gilt Yield Maturity over time</b></p>
+      <div class="chart" id="Chart5"></div>
         
 
   
@@ -89,6 +91,7 @@
     var myChart2 = "chart2.json";
     var myChart3 = "w2chart1.json";
     var myChart4 = "w2chart2.json";
+    var myChart5 = "w3chart1.json";
 
   
     // Embed charts:
@@ -96,6 +99,7 @@
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
    
     
    
