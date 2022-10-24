@@ -3,7 +3,7 @@
     "description": "A simple bar chart with embedded data.",
     
   "title": {
-      "text": "Comparing four economies",
+      "text": "Studying Hours",
       "subtitle":["Hours worked during the first week of May 2022",""],
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
@@ -29,9 +29,5 @@
     "encoding": {
       "x": {"field": "Date", "type": "temporal", "axis": {"labelAngle": 0}},
       "y": {"field": "Hours of study", "type": "quantitative"}
-    }
-  "color": {
-              "datum": {"repeat": "layer"},
-              "scale": {"range": ["orange"]},
-                              } 
+    
   }
