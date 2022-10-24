@@ -22,12 +22,11 @@
   "height": 200,
   "width": 200,   
   
-  
-  
-},
-    "mark": "bar",
+    "mark": {
+      "bar",
     "encoding": {
       "x": {"field": "Date", "type": "temporal", "axis": {"labelAngle": 0}},
       "y": {"field": "Hours of study", "type": "quantitative"}
     
   }
+}
