@@ -3,8 +3,8 @@
     "description": "A simple bar chart with embedded data.",
     
     "title": {
-      "text": "Comparing four economies",
-      "subtitle":["Gilt Yield Maturity, Present Day-2055",""],
+      "text": "Yields",
+      "subtitle":["Gilt Yield Maturity, Present Day-2055"],
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "anchor": "start",
@@ -19,8 +19,5 @@
       "x": {"field": "Maturity", "type": "temporal", "axis": {"labelAngle": 0}},
       "y": {"field": "Yield", "type": "quantitative"}
     }
-"color": {
-              "datum": {"repeat": "layer"},
-              "scale": {"range": "green"},
              
   }
