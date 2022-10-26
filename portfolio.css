@@ -21,6 +21,7 @@ body{
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  z-index: -1;
 }
 
 
@@ -78,7 +79,10 @@ h1, h2, h3, p{
 .myWeek1{
     margin: auto;
     max-width: 600px;
-    background-color: bisque;
+    colour: bisque;
+    opacity; 0.1;
+    z-index: 1;
+    
 }
 
 /* Add a black background color to the top navigation */
