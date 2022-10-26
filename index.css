@@ -1,6 +1,12 @@
 /* Import a font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+.chart {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .video-container {
     position: fixed;
