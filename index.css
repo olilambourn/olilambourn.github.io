@@ -15,7 +15,12 @@
     z-index: -1;
 }
        
- 
+ .myWeek1 {
+     color:rgb(17, 17, 17);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+     z-index: 1;
+}
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h3, p{
