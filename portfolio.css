@@ -4,7 +4,6 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: rgb(255,193,111);
     background-size: cover;
     margin: 0;
     align-items: center;
@@ -17,6 +16,7 @@ video {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 
 .video-wrapper {
