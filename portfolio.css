@@ -13,6 +13,12 @@ body{
     min-height: 100vh;
 }
 
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .video-wrapper {
   /* Telling our absolute positioned video to 
   be relative to this element */
