@@ -24,7 +24,7 @@ body{
 }
 
 
-.video-wrapper {
+.video-container {
   /* Telling our absolute positioned video to 
   be relative to this element */
   position: absolute;
