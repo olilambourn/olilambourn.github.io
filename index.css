@@ -41,6 +41,7 @@ h1, h2, h3, p {
   position: relative;
   background-color: #333;
   overflow: hidden;
+ font-family: 'Roboto', sans-serif;
 }
 
 /* Style the links inside the navigation bar */
