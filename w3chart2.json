@@ -20,7 +20,13 @@
         {"a": "F", "Hours of study": 8, "Date":"2022-05-07"}]
  
     },
-    "mark": "bar",
+    "height": 200,
+  "width": 200,
+
+    "mark": {
+    "type": "bar",
+    "color": "#00ecff"},
+   
     "encoding": {
       "x": {"field": "Date", "type": "temporal", "axis": {"labelAngle": 0}},
       "y": {"field": "Hours of study", "type": "quantitative"}
