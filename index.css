@@ -36,11 +36,6 @@ h1, h2, h3, p {
     text-align: center;
     z-index:1;
 }
-
-h1, h2, h3, p span{ 
-    background-color: rgb(255,255,255);
-    z-index: 0.5
-}
 /* Add a black background color to the top navigation */
 .topnav {
   position: relative;
