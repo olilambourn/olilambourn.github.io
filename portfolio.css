@@ -1,5 +1,5 @@
 /* Import a font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/bebas-neu');
 
 
 /* Set the background color for my page: */
@@ -28,7 +28,7 @@ body{
        
  .content {
      color:rgb(255,255,255);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     text-align: center;
      z-index: 1;
    
@@ -37,7 +37,7 @@ body{
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h2, h3, p {
     color:rgb(255,255,255);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     z-index:1;
 }
@@ -83,7 +83,7 @@ a{
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h2, h3, p{
     color:rgb(255,255,255);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     text-align: center;
 }
     
