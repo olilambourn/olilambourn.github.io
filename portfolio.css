@@ -42,15 +42,6 @@ h1, h2, h3, p {
     z-index:1;
 }
 
-
-  /* Centering the container's content vertically 
-  and horizontally */
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
     /* Set the apperance of the class, chart */
 .chart {
     width:260px;
