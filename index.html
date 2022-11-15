@@ -77,6 +77,15 @@
     
     <p>The tabs at the top of the page take you to the following pages. Final Project shows the work that shall be marked. Portfolio shows the material created throughout the module as I learn. GitHub takes you to the websites code repository. Please note, if you hover your cursor over any chart, it will zoom in, for an easy viewing process. Enjoy!. </p>
     
+ // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
 
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
     </body>
 
+   
