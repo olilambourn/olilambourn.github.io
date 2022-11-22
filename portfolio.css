@@ -71,9 +71,16 @@ a{
     font-family: 'GT Walsheim', sans-serif;
 }
 
-#intextlink a {
+#Wikipedia {
     color: #00008B;
-    style="display: inline"
+    border: 0px;
+   
+}
+
+#link1 {
+    color: #00008B;
+    border: 0px;
+   
 }
 
 
