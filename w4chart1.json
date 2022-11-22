@@ -16,7 +16,7 @@
         "grid": false,
          "ticks": true,
          "labelAngle": 70,
-         "labelFontSize":15}
+         "labelFontSize":9}
     }
   },
   "layer": [
