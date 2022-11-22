@@ -71,6 +71,10 @@ a{
     font-family: 'GT Walsheim', sans-serif;
 }
 
+#intextlink a {
+    color: #00008B;
+}
+
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h2, h3, p{
