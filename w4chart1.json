@@ -10,13 +10,13 @@
   "encoding": {
     "x": {
       "field": "Period",
-      "type": "nominal",
+      "type": "temporal",
       "title": "Year",
       "axis": {
         "grid": false,
          "ticks": true,
          "labelAngle": 70,
-         "labelFontSize":8}
+         "labelFontSize":15}
     }
   },
   "layer": [
