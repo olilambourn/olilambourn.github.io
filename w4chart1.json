@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Amazon Deforestation",
   "title": "Amazon Deforestation 1988-2021",
-  "width": 260,
-  "height": 300,
+  "width": 200,
+  "height": 200,
   "data": {
     "url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/week4_chart1%20(3).csv"
   },
