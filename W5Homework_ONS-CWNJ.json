@@ -5580,9 +5580,36 @@
  }
  ]
  },
+"transform": [
+      
+            {"calculate": "datum.year", "as": "year"},
 
+     {"filter": "datum.year>=minYear"},
+      {"filter": "datum.year<=maxYear"}
+      ],
+
+"params": [    
+      {"name":"minYear", "value":1989,
+        "bind":{
+           "input": "range",
+          "min": 1998,
+          "max": 2022, 
+          "step": 1,
+          "name": "Start year:"}},
+
+    {"name":"maxYear", "value":2022,
+       "bind":{
+         "input": "range",
+         "min": 1998, 
+         "max": 2022, 
+         "step": 1,
+         "name": "End year:"}
+    }
+  ],  
+ 
 "height": 150,
 "width": 150,
+ 
  
     "mark": {
     "type": "line",
