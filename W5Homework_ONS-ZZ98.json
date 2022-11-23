@@ -1,4 +1,15 @@
 {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "title": {
+      "text": "EXPORTS",
+      "subtitle":["Deflator: Exports, growth annual. Source: ONS"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+      },
+
     "description": {
         "cdid": "ZZ98",
         "contact": {
@@ -156,8 +167,14 @@
             "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v19"
         }
     ],
-    "years": [
+   
+   
+    "data": {
+      "values": [ 
         {
+   
+   
+        
             "date": "1997",
             "label": "1997",
             "month": "",
@@ -408,4 +425,22 @@
             "year": "2021"
         }
     ]
+},
+"height": 150,
+    "width": 150,
+ 
+    "mark": {
+    "type": "line",
+    "color": "#f77bef"},
+          "encoding": {
+      "x": {
+          "field": "date",
+          "type": "temporal",
+          "title":"Year"},
+      "y": {
+          "field": "value",
+          "type": "quantitative",
+          "title": "% Change",
+          }
+    }
 }
