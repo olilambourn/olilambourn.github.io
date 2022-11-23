@@ -156,5 +156,11 @@ h1, h2, h3, p{
     left: 0;
     transform: none;
     }
+   
+    .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 150%;
+  }
 }
    
