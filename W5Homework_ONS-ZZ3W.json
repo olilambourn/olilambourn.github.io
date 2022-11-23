@@ -1,6 +1,6 @@
 {
     "description": {
-        "cdid": "ZZ98",
+        "cdid": "ZZ3W",
         "contact": {
             "email": "gdp@ons.gov.uk",
             "name": "Niamh McAuley",
@@ -10,13 +10,13 @@
         "datasetUri": "/economy/grossdomesticproductgdp/datasets/secondestimateofgdp",
         "date": "2021",
         "nextRelease": "22 December 2022",
-        "number": "3.5",
+        "number": "0.98",
         "preUnit": "",
         "releaseDate": "2022-11-15T00:00:00.000Z",
         "sampleSize": "0",
         "source": "",
-        "title": "Deflator: Exports, growth annual",
-        "unit": "%"
+        "title": "Total Production, cont annual",
+        "unit": "% Points"
     },
     "months": [],
     "quarters": [],
@@ -33,127 +33,121 @@
     "section": {},
     "sourceDatasets": [],
     "type": "timeseries",
-    "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2",
+    "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2",
     "versions": [
         {
             "correctionNotice": "",
             "label": "v1",
             "updateDate": "2017-02-22T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v1"
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v1"
         },
         {
             "correctionNotice": "",
             "label": "v2",
-            "updateDate": "2017-05-25T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v2"
+            "updateDate": "2017-11-23T09:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v2"
         },
         {
             "correctionNotice": "",
             "label": "v3",
-            "updateDate": "2017-11-23T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v3"
+            "updateDate": "2018-02-22T09:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v3"
         },
         {
             "correctionNotice": "",
             "label": "v4",
-            "updateDate": "2018-02-22T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v4"
+            "updateDate": "2018-08-10T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v4"
         },
         {
             "correctionNotice": "",
             "label": "v5",
-            "updateDate": "2018-05-25T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v5"
+            "updateDate": "2019-02-11T09:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v5"
         },
         {
             "correctionNotice": "",
             "label": "v6",
-            "updateDate": "2018-08-10T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v6"
+            "updateDate": "2019-05-10T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v6"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v6",
+            "updateDate": "2019-05-10T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v6"
         },
         {
             "correctionNotice": "",
             "label": "v7",
-            "updateDate": "2019-02-11T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v7"
+            "updateDate": "2019-05-10T08:59:07.447Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v7"
         },
         {
             "correctionNotice": "",
             "label": "v8",
-            "updateDate": "2019-05-10T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v8"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v8",
-            "updateDate": "2019-05-10T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v8"
+            "updateDate": "2019-11-11T09:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v8"
         },
         {
             "correctionNotice": "",
             "label": "v9",
-            "updateDate": "2019-05-10T08:59:07.447Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v9"
+            "updateDate": "2020-02-11T08:11:15.587Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v9"
         },
         {
             "correctionNotice": "",
             "label": "v10",
-            "updateDate": "2019-11-11T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v10"
+            "updateDate": "2020-05-13T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v10"
         },
         {
             "correctionNotice": "",
             "label": "v11",
-            "updateDate": "2020-02-11T08:11:15.587Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v11"
+            "updateDate": "2020-08-12T05:39:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v11"
         },
         {
             "correctionNotice": "",
             "label": "v12",
-            "updateDate": "2020-05-13T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v12"
+            "updateDate": "2020-11-12T07:00:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v12"
         },
         {
             "correctionNotice": "",
             "label": "v13",
-            "updateDate": "2020-08-12T05:39:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v13"
+            "updateDate": "2021-02-12T07:00:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v13"
         },
         {
             "correctionNotice": "",
             "label": "v14",
-            "updateDate": "2020-11-12T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v14"
+            "updateDate": "2021-05-12T06:00:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v14"
         },
         {
             "correctionNotice": "",
             "label": "v15",
-            "updateDate": "2021-02-12T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v15"
+            "updateDate": "2021-11-11T07:00:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v15"
         },
         {
             "correctionNotice": "",
             "label": "v16",
-            "updateDate": "2021-11-11T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v16"
+            "updateDate": "2022-02-11T07:00:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v16"
         },
         {
             "correctionNotice": "",
             "label": "v17",
-            "updateDate": "2022-02-11T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v17"
+            "updateDate": "2022-05-12T06:00:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v17"
         },
         {
             "correctionNotice": "",
             "label": "v18",
-            "updateDate": "2022-05-12T06:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v18"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v19",
             "updateDate": "2022-11-11T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz98/pn2/previous/v19"
+            "uri": "/economy/grossdomesticproductgdp/timeseries/zz3w/pn2/previous/v18"
         }
     ],
     "years": [
@@ -164,7 +158,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "-7.6",
+            "value": "0.75",
             "year": "1997"
         },
         {
@@ -174,7 +168,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "-3.4",
+            "value": "0.68",
             "year": "1998"
         },
         {
@@ -184,7 +178,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "0.5",
+            "value": "0.95",
             "year": "1999"
         },
         {
@@ -194,7 +188,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "1.8",
+            "value": "0.39",
             "year": "2000"
         },
         {
@@ -204,7 +198,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "1.0",
+            "value": "0.57",
             "year": "2001"
         },
         {
@@ -214,7 +208,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "-0.8",
+            "value": "0.19",
             "year": "2002"
         },
         {
@@ -224,7 +218,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "2.1",
+            "value": "0.48",
             "year": "2003"
         },
         {
@@ -234,7 +228,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "0.2",
+            "value": "-0.09",
             "year": "2004"
         },
         {
@@ -244,7 +238,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "3.4",
+            "value": "-0.16",
             "year": "2005"
         },
         {
@@ -254,7 +248,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "2.1",
+            "value": "0.54",
             "year": "2006"
         },
         {
@@ -264,7 +258,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "-0.9",
+            "value": "-0.24",
             "year": "2007"
         },
         {
@@ -274,7 +268,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "8.3",
+            "value": "-0.21",
             "year": "2008"
         },
         {
@@ -284,7 +278,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "4.3",
+            "value": "-1.07",
             "year": "2009"
         },
         {
@@ -294,7 +288,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "4.3",
+            "value": "-0.19",
             "year": "2010"
         },
         {
@@ -303,8 +297,8 @@
             "month": "",
             "quarter": "",
             "sourceDataset": "PN2",
-            "updateDate": "2021-11-11T00:00:00.000Z",
-            "value": "5.1",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-0.83",
             "year": "2011"
         },
         {
@@ -314,7 +308,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "-0.2",
+            "value": "0.01",
             "year": "2012"
         },
         {
@@ -323,8 +317,8 @@
             "month": "",
             "quarter": "",
             "sourceDataset": "PN2",
-            "updateDate": "2020-11-12T00:00:00.000Z",
-            "value": "2.7",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.33",
             "year": "2013"
         },
         {
@@ -334,7 +328,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "-2.4",
+            "value": "0.29",
             "year": "2014"
         },
         {
@@ -344,7 +338,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "-3.5",
+            "value": "0.72",
             "year": "2015"
         },
         {
@@ -354,7 +348,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "4.6",
+            "value": "0.07",
             "year": "2016"
         },
         {
@@ -364,7 +358,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "4.5",
+            "value": "-0.03",
             "year": "2017"
         },
         {
@@ -374,7 +368,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "2.2",
+            "value": "0.46",
             "year": "2018"
         },
         {
@@ -384,7 +378,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "2.1",
+            "value": "0.32",
             "year": "2019"
         },
         {
@@ -394,7 +388,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "0.3",
+            "value": "0.17",
             "year": "2020"
         },
         {
@@ -404,7 +398,7 @@
             "quarter": "",
             "sourceDataset": "PN2",
             "updateDate": "2022-11-11T00:00:00.000Z",
-            "value": "3.5",
+            "value": "0.98",
             "year": "2021"
         }
     ]
