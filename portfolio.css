@@ -157,12 +157,48 @@ h1, h2, h3, p{
     transform: none;
     }
    
-    .grid-container {
+    .container_grid {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
-     pointer-events: none;
-  }
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 3px;
+    justify-content: center !important;
+    vertical-align: bottom;
+    text-align: center !important;
+    align-content: center;
+    max-width: 90%;
+    margin:auto;
+    max-width: 1200px;
+    margin-bottom: 15px !important;
+    margin-top: 0px !important;
+  
+}
+  
+  
+  
+.grid_container:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+    
+  
+}
+  
+.grid_container:nth-child(4) {
+    grid-column: 3;
+    grid-row: 2;
+}
+  
+.chart_grid {
+    background-color: white;
+    border-style: solid;
+    border-color: #e80000;
+    border-width: 3px;
+    border-radius: .5em;
+    height: 330px;
+    min-width: 100%;
+    text-align: center;
+    padding: 0.2em !important;
+    margin-left: 0px;
+    }
 }
    
