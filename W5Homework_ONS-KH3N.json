@@ -1,181 +1,17 @@
-{
-    "description": {
-        "cdid": "KH3N",
-        "contact": {
-            "email": "gdp@ons.gov.uk",
-            "name": "Niamh McAuley",
-            "telephone": " +44 1633 455284"
-        },
-        "datasetId": "PN2",
-        "datasetUri": "/economy/grossdomesticproductgdp/datasets/secondestimateofgdp",
-        "date": "2021",
-        "nextRelease": "22 December 2022",
-        "number": "2.8",
-        "preUnit": "",
-        "releaseDate": "2022-11-15T00:00:00.000Z",
-        "sampleSize": "0",
-        "source": "",
-        "title": "Total imports annual growth rate YoY CVM SA %",
-        "unit": "%"
-    },
-    "months": [],
-    "quarters": [],
-    "relatedDatasets": [
+
         {
-            "uri": "/economy/grossdomesticproductgdp/datasets/secondestimateofgdp"
-        }
-    ],
-    "relatedDocuments": [
-        {
-            "uri": "/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/latest"
-        }
-    ],
-    "section": {},
-    "sourceDatasets": [],
-    "type": "timeseries",
-    "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2",
-    "versions": [
-        {
-            "correctionNotice": "",
-            "label": "v1",
-            "updateDate": "2016-08-26T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v1"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v2",
-            "updateDate": "2016-11-25T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v2"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v3",
-            "updateDate": "2017-02-22T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v3"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v4",
-            "updateDate": "2017-05-25T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v4"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v5",
-            "updateDate": "2017-11-23T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v5"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v6",
-            "updateDate": "2018-02-22T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v6"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v7",
-            "updateDate": "2018-05-25T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v7"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v8",
-            "updateDate": "2018-08-10T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v8"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v9",
-            "updateDate": "2019-02-11T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v9"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v10",
-            "updateDate": "2019-05-10T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v10"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v10",
-            "updateDate": "2019-05-10T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v10"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v11",
-            "updateDate": "2019-05-10T08:59:07.447Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v11"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v12",
-            "updateDate": "2019-11-11T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v12"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v13",
-            "updateDate": "2020-02-11T08:11:15.587Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v13"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v14",
-            "updateDate": "2020-05-13T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v14"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v15",
-            "updateDate": "2020-11-12T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v15"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v16",
-            "updateDate": "2021-02-12T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v16"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v17",
-            "updateDate": "2021-05-12T06:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v17"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v18",
-            "updateDate": "2021-08-12T06:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v18"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v19",
-            "updateDate": "2021-11-11T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v19"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v20",
-            "updateDate": "2022-02-11T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v20"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v21",
-            "updateDate": "2022-05-12T06:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v21"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v22",
-            "updateDate": "2022-11-11T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/kh3n/pn2/previous/v22"
-        }
-    ],
-    "years": [
-        {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Gotal imports growth rate:",
+    "subtitle": ["% change, ONS"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+   "data": {
+    "values": [
+      {
             "date": "1949",
             "label": "1949",
             "month": "",
@@ -906,4 +742,43 @@
             "year": "2021"
         }
     ]
+},
+     "transform": [
+    {"calculate": "datum.year", "as": "year"},
+    {"filter": "datum.year>=minYear"},
+    {"filter": "datum.year<=maxYear"}
+  ],
+  "params": [
+    {
+      "name": "minYear",
+      "value": 1989,
+      "bind": {
+        "input": "range",
+        "min": 1998,
+        "max": 2022,
+        "step": 1,
+        "name": "Start year:"
+      }
+    },
+    {
+      "name": "maxYear",
+      "value": 2022,
+      "bind": {
+        "input": "range",
+        "min": 1998,
+        "max": 2022,
+        "step": 1,
+        "name": "End year:"
+      }
+    }
+  ],
+  "height": 150,
+  "width": 150,
+  "mark": {"type": "line", "color": "#db47d4"},
+  "encoding": {
+    "x": {"field": "year", "type": "temporal", "title": "year"},
+    "y": {"field": "value", "type": "quantitative", "title": "% change"}
+  }
 }
+
+   
