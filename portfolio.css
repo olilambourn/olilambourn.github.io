@@ -31,7 +31,7 @@ body{
     font-family: 'GT Walsheim', sans-serif;
     font-size: 14px;
      z-index: 1;
-   pointer-events: none;
+  
 }
 
 /* Choose the appearance of the tags, h1, h3 and p: */
@@ -162,6 +162,7 @@ h1, h2, h3, p{
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 15px;
+     pointer-events: none;
   }
 }
    
