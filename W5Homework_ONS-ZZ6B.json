@@ -1,26 +1,17 @@
-{
-    "description": {
-        "cdid": "ZZ6B",
-        "contact": {
-            "email": "gdp@ons.gov.uk",
-            "name": "Niamh McAuley",
-            "telephone": " +44 1633 455284"
-        },
-        "datasetId": "PN2",
-        "datasetUri": "/economy/grossdomesticproductgdp/datasets/secondestimateofgdp",
-        "date": "2022 Q3",
-        "nextRelease": "22 December 2022",
-        "number": "4.80",
-        "preUnit": "",
-        "releaseDate": "2022-11-15T00:00:00.000Z",
-        "sampleSize": "0",
-        "source": "",
-        "title": "Exports, cont Q on Q yr ago",
-        "unit": "% Points"
-    },
-    "months": [],
-    "quarters": [
+
         {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Exports growth",
+    "subtitle": ["% change, ONS"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+"data": {
+    "values": [
+      {
             "date": "1997 Q1",
             "label": "1997 Q1",
             "month": "",
@@ -1049,185 +1040,1077 @@
             "updateDate": "2022-11-11T00:00:00.000Z",
             "value": "4.80",
             "year": "2022"
+        },
+        {
+            "date": "1997 Q1",
+            "label": "1997 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.82",
+            "year": "1997"
+        },
+        {
+            "date": "1997 Q2",
+            "label": "1997 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2021-11-11T00:00:00.000Z",
+            "value": "2.91",
+            "year": "1997"
+        },
+        {
+            "date": "1997 Q3",
+            "label": "1997 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "3.25",
+            "year": "1997"
+        },
+        {
+            "date": "1997 Q4",
+            "label": "1997 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "3.12",
+            "year": "1997"
+        },
+        {
+            "date": "1998 Q1",
+            "label": "1998 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.78",
+            "year": "1998"
+        },
+        {
+            "date": "1998 Q2",
+            "label": "1998 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.68",
+            "year": "1998"
+        },
+        {
+            "date": "1998 Q3",
+            "label": "1998 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.96",
+            "year": "1998"
+        },
+        {
+            "date": "1998 Q4",
+            "label": "1998 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.21",
+            "year": "1998"
+        },
+        {
+            "date": "1999 Q1",
+            "label": "1999 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.32",
+            "year": "1999"
+        },
+        {
+            "date": "1999 Q2",
+            "label": "1999 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "3.09",
+            "year": "1999"
+        },
+        {
+            "date": "1999 Q3",
+            "label": "1999 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.66",
+            "year": "1999"
+        },
+        {
+            "date": "1999 Q4",
+            "label": "1999 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "3.21",
+            "year": "1999"
+        },
+        {
+            "date": "2000 Q1",
+            "label": "2000 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "3.37",
+            "year": "2000"
+        },
+        {
+            "date": "2000 Q2",
+            "label": "2000 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.83",
+            "year": "2000"
+        },
+        {
+            "date": "2000 Q3",
+            "label": "2000 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.88",
+            "year": "2000"
+        },
+        {
+            "date": "2000 Q4",
+            "label": "2000 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.99",
+            "year": "2000"
+        },
+        {
+            "date": "2001 Q1",
+            "label": "2001 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.25",
+            "year": "2001"
+        },
+        {
+            "date": "2001 Q2",
+            "label": "2001 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.06",
+            "year": "2001"
+        },
+        {
+            "date": "2001 Q3",
+            "label": "2001 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.31",
+            "year": "2001"
+        },
+        {
+            "date": "2001 Q4",
+            "label": "2001 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.20",
+            "year": "2001"
+        },
+        {
+            "date": "2002 Q1",
+            "label": "2002 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.21",
+            "year": "2002"
+        },
+        {
+            "date": "2002 Q2",
+            "label": "2002 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.94",
+            "year": "2002"
+        },
+        {
+            "date": "2002 Q3",
+            "label": "2002 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.63",
+            "year": "2002"
+        },
+        {
+            "date": "2002 Q4",
+            "label": "2002 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.65",
+            "year": "2002"
+        },
+        {
+            "date": "2003 Q1",
+            "label": "2003 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.94",
+            "year": "2003"
+        },
+        {
+            "date": "2003 Q2",
+            "label": "2003 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.50",
+            "year": "2003"
+        },
+        {
+            "date": "2003 Q3",
+            "label": "2003 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.30",
+            "year": "2003"
+        },
+        {
+            "date": "2003 Q4",
+            "label": "2003 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.10",
+            "year": "2003"
+        },
+        {
+            "date": "2004 Q1",
+            "label": "2004 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.95",
+            "year": "2004"
+        },
+        {
+            "date": "2004 Q2",
+            "label": "2004 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.78",
+            "year": "2004"
+        },
+        {
+            "date": "2004 Q3",
+            "label": "2004 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.69",
+            "year": "2004"
+        },
+        {
+            "date": "2004 Q4",
+            "label": "2004 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.89",
+            "year": "2004"
+        },
+        {
+            "date": "2005 Q1",
+            "label": "2005 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.09",
+            "year": "2005"
+        },
+        {
+            "date": "2005 Q2",
+            "label": "2005 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.46",
+            "year": "2005"
+        },
+        {
+            "date": "2005 Q3",
+            "label": "2005 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.87",
+            "year": "2005"
+        },
+        {
+            "date": "2005 Q4",
+            "label": "2005 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.64",
+            "year": "2005"
+        },
+        {
+            "date": "2006 Q1",
+            "label": "2006 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.64",
+            "year": "2006"
+        },
+        {
+            "date": "2006 Q2",
+            "label": "2006 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.73",
+            "year": "2006"
+        },
+        {
+            "date": "2006 Q3",
+            "label": "2006 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.41",
+            "year": "2006"
+        },
+        {
+            "date": "2006 Q4",
+            "label": "2006 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.23",
+            "year": "2006"
+        },
+        {
+            "date": "2007 Q1",
+            "label": "2007 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.21",
+            "year": "2007"
+        },
+        {
+            "date": "2007 Q2",
+            "label": "2007 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.84",
+            "year": "2007"
+        },
+        {
+            "date": "2007 Q3",
+            "label": "2007 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.68",
+            "year": "2007"
+        },
+        {
+            "date": "2007 Q4",
+            "label": "2007 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.51",
+            "year": "2007"
+        },
+        {
+            "date": "2008 Q1",
+            "label": "2008 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.16",
+            "year": "2008"
+        },
+        {
+            "date": "2008 Q2",
+            "label": "2008 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.65",
+            "year": "2008"
+        },
+        {
+            "date": "2008 Q3",
+            "label": "2008 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-1.64",
+            "year": "2008"
+        },
+        {
+            "date": "2008 Q4",
+            "label": "2008 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-3.10",
+            "year": "2008"
+        },
+        {
+            "date": "2009 Q1",
+            "label": "2009 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-3.68",
+            "year": "2009"
+        },
+        {
+            "date": "2009 Q2",
+            "label": "2009 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-3.04",
+            "year": "2009"
+        },
+        {
+            "date": "2009 Q3",
+            "label": "2009 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-1.71",
+            "year": "2009"
+        },
+        {
+            "date": "2009 Q4",
+            "label": "2009 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.34",
+            "year": "2009"
+        },
+        {
+            "date": "2010 Q1",
+            "label": "2010 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.26",
+            "year": "2010"
+        },
+        {
+            "date": "2010 Q2",
+            "label": "2010 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.92",
+            "year": "2010"
+        },
+        {
+            "date": "2010 Q3",
+            "label": "2010 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.68",
+            "year": "2010"
+        },
+        {
+            "date": "2010 Q4",
+            "label": "2010 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.15",
+            "year": "2010"
+        },
+        {
+            "date": "2011 Q1",
+            "label": "2011 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.91",
+            "year": "2011"
+        },
+        {
+            "date": "2011 Q2",
+            "label": "2011 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-0.77",
+            "year": "2011"
+        },
+        {
+            "date": "2011 Q3",
+            "label": "2011 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-0.61",
+            "year": "2011"
+        },
+        {
+            "date": "2011 Q4",
+            "label": "2011 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-0.40",
+            "year": "2011"
+        },
+        {
+            "date": "2012 Q1",
+            "label": "2012 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.09",
+            "year": "2012"
+        },
+        {
+            "date": "2012 Q2",
+            "label": "2012 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.80",
+            "year": "2012"
+        },
+        {
+            "date": "2012 Q3",
+            "label": "2012 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.32",
+            "year": "2012"
+        },
+        {
+            "date": "2012 Q4",
+            "label": "2012 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.09",
+            "year": "2012"
+        },
+        {
+            "date": "2013 Q1",
+            "label": "2013 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.81",
+            "year": "2013"
+        },
+        {
+            "date": "2013 Q2",
+            "label": "2013 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.00",
+            "year": "2013"
+        },
+        {
+            "date": "2013 Q3",
+            "label": "2013 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.06",
+            "year": "2013"
+        },
+        {
+            "date": "2013 Q4",
+            "label": "2013 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.36",
+            "year": "2013"
+        },
+        {
+            "date": "2014 Q1",
+            "label": "2014 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.04",
+            "year": "2014"
+        },
+        {
+            "date": "2014 Q2",
+            "label": "2014 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.95",
+            "year": "2014"
+        },
+        {
+            "date": "2014 Q3",
+            "label": "2014 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.04",
+            "year": "2014"
+        },
+        {
+            "date": "2014 Q4",
+            "label": "2014 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.00",
+            "year": "2014"
+        },
+        {
+            "date": "2015 Q1",
+            "label": "2015 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.26",
+            "year": "2015"
+        },
+        {
+            "date": "2015 Q2",
+            "label": "2015 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.02",
+            "year": "2015"
+        },
+        {
+            "date": "2015 Q3",
+            "label": "2015 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.03",
+            "year": "2015"
+        },
+        {
+            "date": "2015 Q4",
+            "label": "2015 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.56",
+            "year": "2015"
+        },
+        {
+            "date": "2016 Q1",
+            "label": "2016 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.31",
+            "year": "2016"
+        },
+        {
+            "date": "2016 Q2",
+            "label": "2016 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.59",
+            "year": "2016"
+        },
+        {
+            "date": "2016 Q3",
+            "label": "2016 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.24",
+            "year": "2016"
+        },
+        {
+            "date": "2016 Q4",
+            "label": "2016 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.41",
+            "year": "2016"
+        },
+        {
+            "date": "2017 Q1",
+            "label": "2017 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.58",
+            "year": "2017"
+        },
+        {
+            "date": "2017 Q2",
+            "label": "2017 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.96",
+            "year": "2017"
+        },
+        {
+            "date": "2017 Q3",
+            "label": "2017 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.90",
+            "year": "2017"
+        },
+        {
+            "date": "2017 Q4",
+            "label": "2017 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.27",
+            "year": "2017"
+        },
+        {
+            "date": "2018 Q1",
+            "label": "2018 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.20",
+            "year": "2018"
+        },
+        {
+            "date": "2018 Q2",
+            "label": "2018 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.16",
+            "year": "2018"
+        },
+        {
+            "date": "2018 Q3",
+            "label": "2018 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.23",
+            "year": "2018"
+        },
+        {
+            "date": "2018 Q4",
+            "label": "2018 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.60",
+            "year": "2018"
+        },
+        {
+            "date": "2019 Q1",
+            "label": "2019 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.91",
+            "year": "2019"
+        },
+        {
+            "date": "2019 Q2",
+            "label": "2019 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "1.25",
+            "year": "2019"
+        },
+        {
+            "date": "2019 Q3",
+            "label": "2019 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.59",
+            "year": "2019"
+        },
+        {
+            "date": "2019 Q4",
+            "label": "2019 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-0.26",
+            "year": "2019"
+        },
+        {
+            "date": "2020 Q1",
+            "label": "2020 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-1.82",
+            "year": "2020"
+        },
+        {
+            "date": "2020 Q2",
+            "label": "2020 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-15.93",
+            "year": "2020"
+        },
+        {
+            "date": "2020 Q3",
+            "label": "2020 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-6.84",
+            "year": "2020"
+        },
+        {
+            "date": "2020 Q4",
+            "label": "2020 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-7.50",
+            "year": "2020"
+        },
+        {
+            "date": "2021 Q1",
+            "label": "2021 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "-7.46",
+            "year": "2021"
+        },
+        {
+            "date": "2021 Q2",
+            "label": "2021 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "14.05",
+            "year": "2021"
+        },
+        {
+            "date": "2021 Q3",
+            "label": "2021 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "4.48",
+            "year": "2021"
+        },
+        {
+            "date": "2021 Q4",
+            "label": "2021 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "5.69",
+            "year": "2021"
+        },
+        {
+            "date": "2022 Q1",
+            "label": "2022 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "8.41",
+            "year": "2022"
+        },
+        {
+            "date": "2022 Q2",
+            "label": "2022 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "2.52",
+            "year": "2022"
+        },
+        {
+            "date": "2022 Q3",
+            "label": "2022 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "PN2",
+            "updateDate": "2022-11-11T00:00:00.000Z",
+            "value": "0.48",
+            "year": "2022"
         }
-    ],
-    "relatedDatasets": [
-        {
-            "uri": "/economy/grossdomesticproductgdp/datasets/secondestimateofgdp"
-        }
-    ],
-    "relatedDocuments": [
-        {
-            "uri": "/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/latest"
-        }
-    ],
-    "section": {},
-    "sourceDatasets": [],
-    "type": "timeseries",
-    "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2",
-    "versions": [
-        {
-            "correctionNotice": "",
-            "label": "v1",
-            "updateDate": "2016-11-25T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v1"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v2",
-            "updateDate": "2017-02-22T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v2"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v3",
-            "updateDate": "2017-05-25T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v3"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v4",
-            "updateDate": "2017-08-24T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v4"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v5",
-            "updateDate": "2017-11-23T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v5"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v6",
-            "updateDate": "2018-02-22T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v6"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v7",
-            "updateDate": "2018-05-25T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v7"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v8",
-            "updateDate": "2018-08-10T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v8"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v9",
-            "updateDate": "2018-11-09T07:38:17.548Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v9"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v10",
-            "updateDate": "2019-02-11T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v10"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v11",
-            "updateDate": "2019-05-10T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v11"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v11",
-            "updateDate": "2019-05-10T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v11"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v12",
-            "updateDate": "2019-05-10T08:59:07.447Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v12"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v13",
-            "updateDate": "2019-08-09T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v13"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v14",
-            "updateDate": "2019-11-11T09:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v14"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v15",
-            "updateDate": "2020-02-11T08:11:15.587Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v15"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v16",
-            "updateDate": "2020-05-13T08:30:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v16"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v17",
-            "updateDate": "2020-08-12T05:39:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v17"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v18",
-            "updateDate": "2020-11-12T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v18"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v19",
-            "updateDate": "2021-02-12T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v19"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v20",
-            "updateDate": "2021-05-12T06:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v20"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v21",
-            "updateDate": "2021-08-12T06:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v21"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v22",
-            "updateDate": "2021-11-11T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v22"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v23",
-            "updateDate": "2022-02-11T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v23"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v24",
-            "updateDate": "2022-05-12T06:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v24"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v25",
-            "updateDate": "2022-08-12T06:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v25"
-        },
-        {
-            "correctionNotice": "",
-            "label": "v26",
-            "updateDate": "2022-11-11T07:00:00.000Z",
-            "uri": "/economy/grossdomesticproductgdp/timeseries/zz6b/pn2/previous/v26"
-        }
-    ],
-    "years": []
+    ]
+    },
+    
+
+     "transform": [
+    {"calculate": "datum.year", "as": "year"},
+    {"filter": "datum.year>=minYear"},
+    {"filter": "datum.year<=maxYear"}
+  ],
+  "params": [
+    {
+      "name": "minYear",
+      "value": 1989,
+      "bind": {
+        "input": "range",
+        "min": 1998,
+        "max": 2022,
+        "step": 1,
+        "name": "Start year:"
+      }
+    },
+    {
+      "name": "maxYear",
+      "value": 2022,
+      "bind": {
+        "input": "range",
+        "min": 1998,
+        "max": 2022,
+        "step": 1,
+        "name": "End year:"
+      }
+    }
+  ],
+  "height": 150,
+  "width": 150,
+  "mark": {"type": "line", "color": "#db47d4"},
+  "encoding": {
+    "x": {"field": "year", "type": "temporal", "title": "year"},
+    "y": {"field": "value", "type": "quantitative", "title": "% change"}
+  }
 }
+
+   
