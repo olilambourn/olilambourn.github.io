@@ -2744,7 +2744,17 @@
   "width": 150,
   "mark": {"type": "line", "color": "#db47d4"},
   "encoding": {
-    "x": {"field": "year", "type": "temporal", "title": "year"},
+    "x": {
+
+      "field": "year",
+
+      "type": "quantitative",
+
+      "title": "year",
+
+      "axis": {"format": ".0f"}
+
+    },
     "y": {"field": "value", "type": "quantitative", "title": "% change"}
   }
 }
