@@ -1360,15 +1360,3 @@
   }
 }
 
-   
-"x": {
-
-      "field": "year",
-
-      "type": "quantitative",
-
-      "title": "year",
-
-      "axis": {"format": ".0f"}
-
-    },
