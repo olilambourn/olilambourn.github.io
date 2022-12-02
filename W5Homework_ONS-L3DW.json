@@ -1,4 +1,3 @@
-
         {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
@@ -1360,16 +1359,3 @@
     "y": {"field": "value", "type": "quantitative", "title": "% change"}
   }
 }
-
-   
-"x": {
-
-      "field": "year",
-
-      "type": "quantitative",
-
-      "title": "year",
-
-      "axis": {"format": ".0f"}
-
-    },
