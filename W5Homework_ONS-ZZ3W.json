@@ -293,8 +293,7 @@
       }
     }
   ],
-  "height": 150,
-  "width": 150,
+ 
   "mark": {"type": "line", "color": "#db47d4"},
   "encoding": {
    "x": {
