@@ -14,8 +14,14 @@
     <meta name="description" content="My portfolio page featuring data science projects from 2022">
     <meta name="keywords" content="portfolio, data science, Oliver Lambourn, projects">
   
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+  <!-- Slick library -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- Link to my style sheet -->
+    
     <link rel="stylesheet" href="portfolio.css">
 
     <!--The next three lines allow the Vega embed-->
@@ -107,7 +113,8 @@
          
         <p>This weeks task was to create a 9 chart API dashboard</p>
             
-             <div class="chart-grid">
+            <!-- The container for the charts -->
+<div class="chart-slider">
   <div class="chart-box" id="Chart8"></div>
   <div class="chart-box" id="Chart9"></div>
   <div class="chart-box" id="Chart10"></div>
@@ -118,6 +125,15 @@
   <div class="chart-box" id="Chart15"></div>
   <div class="chart-box" id="Chart16"></div>
 </div>
+        
+ <script>
+    // Initialize the slider
+    $('.chart-slider').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3
+    });
+  </script>
            <hr/>
         <hr/>
 <h2>Week 6 – Reading week – no homework</h2>
@@ -172,6 +188,5 @@
     vegaEmbed('#Chart16', myChart16);
   
    
-</script>
 
 </html>
