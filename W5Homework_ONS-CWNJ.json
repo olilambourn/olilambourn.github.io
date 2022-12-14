@@ -1,6 +1,6 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
-"title": {
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
       "text": "Wages and salaries growth rate %",
       "subtitle":["Data from the ONS"],
       "subtitleFontStyle":"italic",
