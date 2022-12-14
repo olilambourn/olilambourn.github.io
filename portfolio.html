@@ -14,13 +14,10 @@
     <meta name="description" content="My portfolio page featuring data science projects from 2022">
     <meta name="keywords" content="portfolio, data science, Oliver Lambourn, projects">
   
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+  
   <!-- Slick library -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>  
     
     <!-- Link to my style sheet -->
     
@@ -127,8 +124,13 @@
   <div class="chart-box" id="Chart15"></div>
   <div class="chart-box" id="Chart16"></div>
 </div>
-        
- <script>
+        <!-- jQuery library -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+    
+<script type="text/javascript">
+    $(document).ready(function(){
     // Initialize the slider
     $('.chart-slider').slick({
       infinite: true,
@@ -138,6 +140,8 @@
   arrows: true // Show previous and next arrows
     });
   </script>
+        
+        
            <hr/>
         <hr/>
 <h2>Week 6 – Reading week – no homework</h2>
