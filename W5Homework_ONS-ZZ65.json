@@ -2,7 +2,7 @@
         {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Household final consumption expenditure",
+    "text": "Household consumption expenditure",
     "subtitle": ["% change, ONS"],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
