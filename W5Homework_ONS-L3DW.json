@@ -1,7 +1,7 @@
         {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Construction (period on period growth)",
+    "text": "Construction growth",
     "subtitle": ["% change, ONS"],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
