@@ -1,5 +1,5 @@
 /* Import a font */
-@import url('http://fonts.cdnfonts.com/css/gt-walsheim');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
 /* Set the background color for my page: */
@@ -26,13 +26,6 @@ body{
     z-index: -1;
 }
        
- .content {
-     color:rgb(44 5 5);
-    font-family: 'GT Walsheim', sans-serif;
-    font-size: 14px;
-     z-index: 1;
-  
-}
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h2, h3, p {
