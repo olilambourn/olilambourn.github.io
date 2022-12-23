@@ -58,15 +58,19 @@ h1, h2, h3, p {
     z-index: 1;
 }
 
-.chart-box {
-    width:200px;
-  height: 200px;
-    background-color: white;
-    border-width: 10px;
+.chart5{
+    background-color: rgb(198, 198, 198);
+    height: auto;
+    width:auto;
+    border-width: 3px;
     border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(100, 100, 100);
-    display: block;
+    border-radius: 6px;
+    border-color: rgb(0, 0, 0);
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 0.5cm;
+    display: inline-block; 
+
 }
 
 .chart:hover {
