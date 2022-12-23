@@ -98,7 +98,15 @@ h1, h2, h3, p{
     font-family: 'GT Walsheim', sans-serif;
     text-align: center;
 }
-   
+    
+.content{
+    margin: auto;
+    max-width: 600px;
+    colour: bisque;
+    opacity; 0.1;
+    z-index: 1;
+    
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -129,6 +137,14 @@ h1, h2, h3, p{
   color: white;
 }
 
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {
@@ -148,6 +164,4 @@ h1, h2, h3, p{
     left: 0;
     transform: none;
     }
-   
-  
    
