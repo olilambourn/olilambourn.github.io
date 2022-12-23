@@ -129,14 +129,6 @@ h1, h2, h3, p{
   color: white;
 }
 
-/* Centered section inside the top navigation */
-.topnav-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {
