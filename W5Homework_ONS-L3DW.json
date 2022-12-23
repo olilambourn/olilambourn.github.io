@@ -1341,8 +1341,8 @@
       }
     }
   ],
-  "height": 150,
-  "width": 150,
+"width":200,
+        "height":200,
   "mark": {"type": "line", "color": "#db47d4"},
   "encoding": {
     "x": {
