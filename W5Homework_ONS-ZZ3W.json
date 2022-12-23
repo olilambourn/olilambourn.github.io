@@ -290,16 +290,14 @@
         "max": 2022,
         "step": 1,
         "name": "End year:"
-      }
+     }
     }
   ],
-                
-     "width":200,
+  "width":200,
         "height":200,
- 
   "mark": {"type": "line", "color": "#db47d4"},
   "encoding": {
-   "x": {
+    "x": {
 
       "field": "year",
 
@@ -313,5 +311,6 @@
     "y": {"field": "value", "type": "quantitative", "title": "% change"}
   }
 }
+
 
    
