@@ -111,7 +111,7 @@
          
         <p>This weeks task was to create a 9 chart API dashboard</p>
             
-    <div class="multiple-items">       
+    <div class="fade">       
     <div id="Chart8"> </div>     
     <div id="Chart9"> </div> 
     <div id="Chart10"> </div> 
@@ -130,12 +130,13 @@
         
         <script type="text/javascript">
     $(document).ready(function(){
-      $('.multiple-items').slick({
-          infinite: true,
-          swipe: false,
-  slidesToShow: 2,
-  slidesToScroll: 5
-      });
+      $('.fade').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
     });
   </script>
         
