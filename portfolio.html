@@ -134,54 +134,55 @@
   infinite: true,
   speed: 500,
   fade: true,
-  centerPadding: 'calc((100% - 200px) / 2)',
+  centerPadding: '200px', // Initial value of centerPadding
+  cssEase: 'linear',
   responsive: [
     {
-     breakpoint: 2560,
+      breakpoint: 2560,
       settings: {
-        centerPadding: 'calc((100% - 200px) / 2)'
+        centerPadding: '180px' // Different value of centerPadding for screen widths greater than or equal to 2560px
       }
     },
     {
       breakpoint: 1920,
       settings: {
-        centerPadding: 'calc((100% - 200px) / 2)'
+        centerPadding: '160px' // Different value of centerPadding for screen widths between 1920px and 2559px
       }
     },
     {
       breakpoint: 1440,
       settings: {
-        centerPadding: 'calc((100% - 200px) / 2)'
+        centerPadding: '140px' // Different value of centerPadding for screen widths between 1440px and 1919px
       }
     },
     {
       breakpoint: 1200,
       settings: {
-        centerPadding: 'calc((100% - 200px) / 2)'
+        centerPadding: '120px' // Different value of centerPadding for screen widths between 1200px and 1439px
       }
     },
     {
       breakpoint: 1024,
       settings: {
-        centerPadding: 'calc((100% - 200px) / 2)'
+        centerPadding: '100px' // Different value of centerPadding for screen widths between 1024px and 1199px
       }
     },
     {
       breakpoint: 768,
       settings: {
-        centerPadding: 'calc((100% - 200px) / 2)'
+        centerPadding: '80px' // Different value of centerPadding for screen widths between 768 px and 1024px
       }
     },
     {
       breakpoint: 640,
       settings: {
-        centerPadding: 'calc((100% - 200px) / 2)'
+        centerPadding: '60px'
       }
     },
     {
       breakpoint: 480,
       settings: {
-        centerPadding: 'calc((100% - 200px) / 2)'
+        centerPadding: '40px'
       }
     }
   ]
