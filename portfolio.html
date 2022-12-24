@@ -130,31 +130,30 @@
         
         <script type="text/javascript">
     $(document).ready(function(){
-      $('.fade').slick({
+     $('.fade').slick({
   infinite: true,
   speed: 500,
   fade: true,
-    centerMode: true,
-          mobilefirst: true,
-  centerPadding: '60px',
+  centerMode: true,
+  centerPadding: 'calc((100% - 200px) / 2)',
   cssEase: 'linear',
   responsive: [
     {
       breakpoint: 1024,
       settings: {
-        centerPadding: '40px'
+        centerPadding: 'calc((100% - 200px) / 2)'
       }
     },
     {
       breakpoint: 768,
       settings: {
-        centerPadding: '20px'
+        centerPadding: 'calc((100% - 200px) / 2)'
       }
     },
     {
       breakpoint: 480,
       settings: {
-        centerPadding: '10px'
+        centerPadding: 'calc((100% - 200px) / 2)'
       }
     }
   ]
