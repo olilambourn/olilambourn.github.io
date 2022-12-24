@@ -14,7 +14,8 @@
     <meta name="description" content="My portfolio page featuring data science projects from 2022">
     <meta name="keywords" content="portfolio, data science, Oliver Lambourn, projects">
   
- 
+     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
     
     <!-- Link to my style sheet -->
@@ -110,17 +111,26 @@
          
         <p>This weeks task was to create a 9 chart API dashboard</p>
             
-           
-    <div class="chart5" id="Chart8"> </div>     
-    <div class="chart5" id="Chart9"> </div> 
-    <div class="chart5" id="Chart10"> </div> 
-    <div class="chart5" id="Chart11"> </div> 
-    <div class="chart5" id="Chart12"> </div> 
-    <div class="chart5" id="Chart13"> </div> 
-    <div class="chart5" id="Chart14"> </div> 
-    <div class="chart5" id="Chart15"> </div> 
-    <div class="chart5" id="Chart16"> </div> 
+    <div class="single-item">       
+    <div id="Chart8"> </div>     
+    <div id="Chart9"> </div> 
+    <div id="Chart10"> </div> 
+    <div id="Chart11"> </div> 
+    <div id="Chart12"> </div> 
+    <div id="Chart13"> </div> 
+    <div id="Chart14"> </div> 
+    <div id="Chart15"> </div> 
+    <div id="Chart16"> </div> 
         
+         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+        
+        <script type="text/javascript">
+    (document).ready(function(){
+      ('.single-item').slick();
+    });
+  </script>
         
 <p>The link to my google colab form is <a href = "https://github.com/olilambourn/olilambourn.github.io/blob/main/week5apicolab.ipynb"id="link1">here.</a></p>
 </div>
