@@ -136,7 +136,28 @@
   fade: true,
     centerMode: true,
           mobilefirst: true,
-  cssEase: 'linear'
+  centerPadding: '60px',
+  cssEase: 'linear',
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        centerPadding: '40px'
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        centerPadding: '20px'
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        centerPadding: '10px'
+      }
+    }
+  ]
 });
     });
   </script>
