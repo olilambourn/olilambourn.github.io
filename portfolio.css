@@ -5,6 +5,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+	z-index: 999;
 }
 
 /* Set the background color for my page: */
