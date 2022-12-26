@@ -64,7 +64,10 @@ h1, h2, h3, p {
     margin-left: 0;/* Remove the left and right margins */
   transform: none;
 	}
-
+  /* Cancel the hover effect for devices with a screen width of less than 600px */
+  .chart:hover {
+    transform: none; /* Reset the transform property to its default value */
+  }
 }
 	  
 .chart5{
