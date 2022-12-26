@@ -29,6 +29,17 @@
 </head>
 
 <body>
+    <div id="loading-screen">
+   <div class="loading-animation"></div>
+</div>
+
+<script>
+   // Hide the loading screen when the page has finished loading
+   window.onload = function() {
+      document.getElementById("loading-screen").style.display = "none";
+   };
+</script>
+    
    <div class="video-container">
       
     <video playsinline autoplay muted loop poster="video (6).mp4">
