@@ -58,7 +58,7 @@ h1, h2, h3, p {
 }
 
 /* Apply different styles for devices with a screen width of less than 600px */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .chart {
     width: 100%; /* Set the width to the full width of the screen */
     margin-left: 0; /* Remove the left and right margins */
