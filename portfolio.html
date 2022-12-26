@@ -163,9 +163,11 @@
         <h2>Week 9 – Advanced charts</h2>
     </div>
  
-   <script>
+  <script>
   function stopLoadingScreen() {
-    document.getElementById("loading-screen").style.display = "none";
+    setTimeout(function() {
+      document.getElementById("loading-screen").style.display = "none";
+    }, 1000);
   }
 
   window.addEventListener("load", stopLoadingScreen);
