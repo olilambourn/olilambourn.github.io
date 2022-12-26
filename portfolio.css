@@ -61,11 +61,10 @@ h1, h2, h3, p {
 @media screen and (max-width: 600px) {
   .chart {
     width: 100%; /* Set the width to the full width of the screen */
-    margin-left: 0; /* Remove the left and right margins */
-	  }
-.chart:hover {
-    transform: none; /* Reset the transform property to its default value */
-  }
+    margin-left: 0;/* Remove the left and right margins */
+  transform: none;
+	}
+
 }
 	  
 .chart5{
