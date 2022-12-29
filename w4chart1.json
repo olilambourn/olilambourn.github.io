@@ -14,9 +14,10 @@
       "title": "Year",
       "axis": {
         "grid": false,
-         "ticks": true,
-         "labelAngle": 70,
-         "labelFontSize":9}
+        "ticks": true,
+        "labelAngle": 70,
+        "labelFontSize": 9
+      }
     }
   },
   "layer": [
@@ -27,8 +28,11 @@
           "field": "Estimated remaining forest coverin the Brazilian Amazon (km2)",
           "type": "quantitative",
           "title": "Estimated Remaining Forest Cover (km2)",
-          "axis": {"grid": false}
-       }
+          "axis": {
+            "grid": false,
+            "format": "~s"
+          }
+        }
       }
     },
     {
@@ -38,11 +42,13 @@
           "field": "Annual forestloss (km2)",
           "type": "quantitative",
           "title": "Annual forestloss (km2)",
-          "axis": {"titleColor": "#2f8f9d"}
+          "axis": {
+            "titleColor": "#2f8f9d",
+            "format": "~s"
+          }
         }
       }
     }
   ],
-
- "resolve": {"scale": {"y": "independent"}}
+  "resolve": {"scale": {"y": "independent"}}
 }
