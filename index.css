@@ -7,6 +7,13 @@
 	left: 0;
 }
 
+#intro {
+  cursor: pointer;
+  height: 50px;
+  overflow: hidden;
+}
+
+
 .chart {
   display: block;
   margin-left: auto;
