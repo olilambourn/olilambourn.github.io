@@ -193,7 +193,7 @@ h1, h2, h3, p{
     border-color: rgb(100, 100, 100);
     display: block;
     text-align: center;
-    width: 50%;
+  
 }
 	/* Apply different styles for devices with a screen width of less than 600px */
 @media screen and (max-width: 600px) {
