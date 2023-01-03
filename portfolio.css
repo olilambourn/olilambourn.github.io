@@ -184,26 +184,23 @@ h1, h2, h3, p{
     transform: none;
     }
    
+	 
 .chartw7 {
-  background-color: white;
-  padding: 0.2em;
-  text-align: center;
-  border-width: .2em;
-  display: inline-block;
-  min-width: 280px;
-  flex-grow: 1;
+  background-color: white; 
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(100, 100, 100);
+    display: block;
+    text-align: center;
+    width: 50%;
 }
 	/* Apply different styles for devices with a screen width of less than 600px */
 @media screen and (max-width: 600px) {
-  .chart7 {
+  .chartw7 {
     width: 100%; /* Set the width to the full width of the screen */
     margin-left: 0;/* Remove the left and right margins */
-  transform: none;
 	}
   
 
-.w7wrap {
-  display: flex;
-  flex-wrap: wrap;
-}
 }
