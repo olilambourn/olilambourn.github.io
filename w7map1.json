@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Asia base map",
+    "subtitle": "Source: https://geojson-maps.ash.ms/",
+    "anchor": "start",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10
+  },
+  "width": 500,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/w7map1data.json",
+    "format": {"property": "features"}
+  },
+  "projection": {"type": "mercator"},
+  "mark": {
+    "type": "geoshape",
+    "stroke": "darkblue",
+    "strokeWidth": 0.4,
+    "fill": "lightpink"
+  },
+  "encoding": {"tooltip": {"field": "properties.name", "type": "nominal"}}
+}
