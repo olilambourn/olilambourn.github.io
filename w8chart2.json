@@ -1,4 +1,5 @@
-{
+
+  {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
       "text": "Data Scientist Jobs Reported on LinkedIn",
@@ -7,11 +8,10 @@
       "subtitleFontSize":10,
       "anchor": "start",
       "color": "black"},
- 
- 
+
   "data": {
     "values": [
-{"Year": "1984", "Number": 0.053999999999999999},
+{"Year": "1984", "Number": 0.053999999999999999}, 
 {"Year": "1985", "Number": 0.068000000000000005},
 {"Year": "1986", "Number": 0.080000000000000002},
 {"Year": "1987", "Number": 0.098000000000000004},
@@ -44,17 +44,18 @@
 {"Year": "2014", "Number": 9.4049999999999994},
 {"Year": "2015", "Number": 11.433}
 ]
-  },
+},
   "height": 200,
-  "width": 200,   
+  "width": 200,
 
-"mark": {
-    "type": "line",
-    "color": "#8cbc4a",
-
+  "mark": {"type": "line", "color": "#57ee10"},
   "encoding": {
-    "x": {"field": "Year", "type": "temporal", "title": "Year"},
-    "y": {"field": "Number", "type": "quantitative", "title": "Data Scientists reported on LinkedIn ('000)"}
+    "x": {"field": "Year", "type": "temporal", "axis": {"labelAngle": -45}},
+    
+  "y": {
+    "field": "Number",
+    "type": "quantitative",
+    "title": "Data Scientists reported on LinkedIn ('000)"
   }
 }
 }
