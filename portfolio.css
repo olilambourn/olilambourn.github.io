@@ -184,15 +184,18 @@ h1, h2, h3, p{
     transform: none;
     }
    
-.chartw7{
+.chartw7 {
   background-color: white;
-  padding: 0.2em  ;
-  text-align: center; 
+  padding: 0.2em;
+  text-align: center;
   border-width: .2em;
-  height: 490px; /* can do %s here too! */
-  width: 630px;
-  display: inline-block ;
+  display: inline-block;
   min-width: 280px;
-  margin: .2em;
+  flex-grow: 1;
+}
+
+.w7wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
 }
