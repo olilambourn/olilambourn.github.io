@@ -7,14 +7,13 @@
 	left: 0;
 }
 
-#Bio {
-  cursor: pointer;
-  height: 50px;
-  overflow: hidden;
-}
 
-#bio-text {
-  display: none;
+
+#bio-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 
