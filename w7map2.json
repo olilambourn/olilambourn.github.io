@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Asian Inflation Map: monthly inflation rate",
+    "text": "Asian Inflation Map: core inflation rate",
     "subtitle": "Data Source: https://tradingeconomics.com/country-list/inflation-rate?continent=asia",
     "anchor": "start",
     "subtitleFontStyle": "italic",
