@@ -1,0 +1,26 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+       
+  "title": {
+      "text": "Real Drug Development Costs",
+      "subtitle":["Annual R&D Spending by PhRMA Member Firms Source: CBO.",""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+      
+  
+  "data": {"url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/drugcost.csv"},
+
+ "height": 200,
+  "width": 200,   
+
+"mark": {
+    "type": "line",
+    "color": "#FF3131"
+  },
+  "encoding": {
+    "x": {"field": "Year", "type": "temporal"},
+    "y": {"field": "Cost", "type": "quantitative",  "title": "Cost ($ bn)"}
+  }
+}
