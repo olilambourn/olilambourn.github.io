@@ -8,13 +8,11 @@
 }
 
 
-
 #bio-container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  text-align: center; /* center the button horizontally */
+  margin: 20px;
 }
+
 
 
 .chart {
