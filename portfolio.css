@@ -193,6 +193,14 @@ h1, h2, h3, p{
   min-width: 280px;
   flex-grow: 1;
 }
+	/* Apply different styles for devices with a screen width of less than 600px */
+@media screen and (max-width: 600px) {
+  .chart7 {
+    width: 100%; /* Set the width to the full width of the screen */
+    margin-left: 0;/* Remove the left and right margins */
+  transform: none;
+	}
+  
 
 .w7wrap {
   display: flex;
