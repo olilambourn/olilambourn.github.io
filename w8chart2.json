@@ -3,9 +3,9 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
       "text": "Data Scientist Jobs Reported on LinkedIn",
-      "subtitle":["Source: LinkedIn."],
+      "subtitle":["Uses CV analysis pre-LinkedIn release. Source: LinkedIn"],
       "subtitleFontStyle":"italic",
-      "subtitleFontSize":10,
+      "subtitleFontSize":9,
       "anchor": "start",
       "color": "black"},
 
