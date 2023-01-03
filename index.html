@@ -67,34 +67,26 @@
      </div>
 
     <div id="Bio"> 
-         
-         
-    <p id="bio-link">Click for Bio</p>
-    
-    <p id="bio-text">Welcome to my first website. I am a third year Economics Student at the University of Bristol. This website serves the purpose of documenting progress throughout my 3rd year Data Science module. I will update this throughout the term, until my project has culminated .
-The tabs at the top of the page take you to the following pages: Final Project shows the work that shall be marked. Portfolio shows the material created throughout the module as I learn. GitHub takes you to the websites code repository. Please note, if you hover your cursor over any chart, it will zoom in, for an easy viewing process. (If you are viewing on a mobile devide with 'low-battery mode' a play-button may appear in the background of the video. Turn mode off to allow this to disappear) Enjoy!. </p>
-    </div>
-    
-     <script>
-         const Bio = document.getElementById('Bio');
-         const bioLink = document.getElementById('bio-link');
-         const bioText = document.getElementById('bio-text');
-         let isBioVisible = false;
+    <p id="BioHeader">Bio</p>
 
-Bio.addEventListener('click', () => {
-  if (isBioVisible) {
-    bioLink.innerHTML = 'Click for Bio';
-    bioText.style.display = 'none';
-    isBioVisible = false;
-  } else {
-    bioLink.innerHTML = 'Bio';
-    bioText.style.display = 'block';
-    isBioVisible = true;
-  }
-});
-         </script>
-         
- 
+<p id="BioText">Welcome to my first website. I am a third year Economics Student at the University of Bristol. This website serves the purpose of documenting progress throughout my 3rd year Data Science module. I will update this throughout the term, until my project has culminated .
+The tabs at the top of the page take you to the following pages: Final Project shows the work that shall be marked. Portfolio shows the material created throughout the module as I learn. GitHub takes you to the websites code repository. Please note, if you hover your cursor over any chart, it will zoom in, for an easy viewing process. (If you are viewing on a mobile devide with 'low-battery mode' a play-button may appear in the background of the video. Turn mode off to allow this to disappear) Enjoy!. </p>
+
+  </div>
+  <script>
+    const Bio = document.getElementById('Bio');
+    const BioHeader = document.getElementById('BioHeader');
+    const BioText = document.getElementById('BioText');
+    
+    Bio.addEventListener('click', () => {
+      if (BioText.style.display === 'none') {
+        BioText.style.display = 'block';
+      } else {
+        BioText.style.display = 'none';
+      }
+    });
+  </script>
+    
      <script>
   function stopLoadingScreen() {
     setTimeout(function() {
