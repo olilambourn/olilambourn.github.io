@@ -3,9 +3,9 @@
        
   "title": {
       "text": "Real Drug Development Costs",
-      "subtitle":["Annual R&D Spending by PhRMA Member Firms Source: CBO.",""],
+      "subtitle":["Annual R&D Spending by PhRMA Member Firms, Source: CBO],
       "subtitleFontStyle":"italic",
-      "subtitleFontSize":10,
+      "subtitleFontSize":"9",
       "anchor": "start",
       "color": "black"},
       
