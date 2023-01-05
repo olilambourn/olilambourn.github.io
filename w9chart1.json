@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Bubble Chart of Education Expenditure, Average Wage, GDP per Capita",
+    "text": "Education Spending, Wages, GDP per Capita",
     "subtitle": [
-      "of selected OECD nations, 2012-2019. (Source: OECD)",
+      "Bubble Chart of selected OECD nations, 2012-2019. (Source: OECD)",
       ""
      
           ],
