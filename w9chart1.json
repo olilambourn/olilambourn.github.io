@@ -44,7 +44,8 @@
     "x": {
       "field": "Average Wage",
       "type": "quantitative",
-      "axis": {"grid": false},
+      "axis": {"grid": false, "labelAngle": 45},
+  
       "title": "Average Wage (US $)"
     },
   
