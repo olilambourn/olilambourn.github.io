@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 350,
+  "config": {
+    "background": "white",
+    "view": {"stroke": "transparent"},
+    "padding": {"top": 6}
+  },
+  "title": {
+    "text": "Median Wealth (US $) 2021",
+    "fontSize": 15,
+    "subtitle": "Median Wealth of selected World Nations. Source: Credit Suisse",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 11,
+    "anchor": "middle",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/ergrko/ergrko.github.io/main/world.geo.json",
+    "format": {"property": "features"}
+  },
+  "projection": {"type": "naturalEarth1"},
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/worldwealth2021.csv"
+        },
+        "key": "Country",
+        "fields": ["Median"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": "darkgrey", "strokeWidth": 1.2},
+  "encoding": {
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "Country"},
+      {
+        "field": "Median",
+        "title": "Mean Wealth US ($)",
+        "format": ".0f"
+
+      }
+    ],
+    "color": {
+      "field": "Median",
+      "type": "quantitative",
+      "legend": {"orient": "bottom-left", "direction": "horizontal"}
+    }
+  }
+}
