@@ -75,6 +75,19 @@ h1,h2,h3,p {
     display: inline-block
 }
 
+.chart9 {
+     background-color: #fff;
+    height: auto;
+    width: auto;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: #646464;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: .5cm;
+    display: inline-block
+}
+
 .chart:hover {
     transform: scale(1.5)
 }
