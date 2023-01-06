@@ -76,16 +76,15 @@ h1,h2,h3,p {
 }
 
 .chart9 {
-     background-color: #fff;
-    height: auto;
-    width: auto;
+    background-color: #fff;
     border-width: 10px;
+    border-style: solid;
     border-radius: 10px;
     border-color: #646464;
-    margin-left: 1px;
-    margin-right: 1px;
-    margin-bottom: .5cm;
-    display: inline-block
+    display: block;
+    margin-left: 120px;
+    margin-right: 120px;
+    width: 50%;
 }
 
 .chart:hover {
