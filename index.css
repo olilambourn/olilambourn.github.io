@@ -7,6 +7,11 @@
 	left: 0;
 }
 
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 
 #bio-container {
   text-align: center; /* center the button horizontally */
