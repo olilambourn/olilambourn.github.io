@@ -58,6 +58,17 @@ h1, h2, h3, p {
  font-family: 'Roboto', sans-serif;
 }
 
+.bio-button {
+  background-color: #F5F5F5; /* Off-white */
+  border: none;
+  color: #000000; /* Black */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
