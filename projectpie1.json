@@ -29,6 +29,7 @@
     },
         
     "tooltip": [{"field": "Country", "type": "nominal"},
-    {"field": "1-5 m", "type": "quantitative"}]
+    {"field": "1-5 m", "type": "quantitative", "format": ","}
+]
   }
 }
