@@ -75,12 +75,7 @@ h1, h2, h3, p {
   margin-top: 50px;
 }
 
- #toppagetext {
-    /* Set the initial color to black */
-    color: #000000;
-    /* Add a transition to the color property */
-    transition: color 0.5s;
-  }
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
