@@ -87,7 +87,7 @@ function revealBio() {
   var button = document.querySelector("button");
   if (bio.style.display === "none") {
     bio.style.display = "block";
-    content.style.marginTop = "50px";
+    content.style.marginTop = "100px";
     button.innerHTML = "Bio";
   } else {
     bio.style.display = "none";
@@ -108,42 +108,48 @@ function revealBio() {
 </script>
 
   <script src="loading.js"></script>
+    
     <script>
   // Get a reference to the toppagetext div
-  var element = document.getElementById("toppagetext");
+var element = document.querySelector(".toppagetext");
 
-  // Define an array of colors
-  var colors = [
-    "#000000",
-    "#111111",
-    "#222222",
-    "#333333",
-    "#444444",
-    "#555555",
-    "#666666",
-    "#777777",
-    "#888888",
-    "#999999",
-    "#AAAAAA",
-    "#BBBBBB",
-    "#CCCCCC",
-    "#DDDDDD",
-    "#EEEEEE",
-    "#FFFFFF",
-  ];
+// Define an array of colors
+var colors = [
+  "#FFFFFF",
+  "#F2F2F2",
+  "#E5E5E5",
+  "#D8D8D8",
+  "#CCCCCC",
+  "#BFBFBF",
+  "#B2B2B2",
+  "#A6A6A6",
+  "#999999",
+  "#8C8C8C",
+  "#808080",
+  "#737373",
+  "#666666",
+  "#595959",
+  "#4D4D4D",
+  "#404040",
+  "#333333",
+  "#262626",
+  "#1A1A1A",
+  "#0D0D0D",
+  "#000000",
+];
 
-  // Set the initial index to 0
-  var index = 0;
+// Set the initial index to 0
+var index = 0;
 
-  // Set the interval to change the color every 250 milliseconds (1/4 second)
-  setInterval(function() {
-    // Update the color of the element
-    element.style.color = colors[index];
+// Set the interval to change the color every 125 milliseconds (1/8 second)
+setInterval(function() {
+  // Update the color of the element
+  element.style.color = colors[index];
 
-    // Increment the index and wrap it around if necessary
-    index = (index + 1) % colors.length;
-  }, 250);
-</script>
+  // Increment the index and wrap it around if necessary
+  index = (index + 1) % colors.length;
+}, 125);
+    </script>
     </body>
 <script>
     //Define charts:
