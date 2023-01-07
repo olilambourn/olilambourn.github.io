@@ -47,6 +47,7 @@
     "color": {
       "field": "Median",
       "type": "quantitative",
+      "scale": {"type": "log", "scheme": "redyellowgreen"},
       "legend": {"orient": "bottom-left", "direction": "horizontal"}
     }
   }
