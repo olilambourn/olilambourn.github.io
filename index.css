@@ -62,11 +62,12 @@ h1, h2, h3, p {
     background-color: #F5F5F5; /* Off-white */
     border: none;
     color: #000000; /* Black */
-    padding: 5px 18px;
+    padding: 9px 90px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 13px;
+  border-radius: 18888px;
 	
 }
 
