@@ -62,11 +62,11 @@ h1, h2, h3, p {
     background-color: #F5F5F5; /* Off-white */
     border: none;
     color: #000000; /* Black */
-    padding: 15px 32px;
+    padding: 5px 18px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
 	
 }
 
