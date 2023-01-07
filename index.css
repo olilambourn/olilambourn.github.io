@@ -70,6 +70,10 @@ h1, h2, h3, p {
   border-radius: 18888px;
 	
 }
+.shift-down {
+  /* Shift the content down by a smaller amount */
+  margin-top: 50px;
+}
 
 #toppagetext {
     /* Set the initial color to black */
