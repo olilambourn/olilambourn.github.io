@@ -108,7 +108,42 @@ function revealBio() {
 </script>
 
   <script src="loading.js"></script>
-    
+    <script>
+  // Get a reference to the toppagetext div
+  var element = document.getElementById("toppagetext");
+
+  // Define an array of colors
+  var colors = [
+    "#000000",
+    "#111111",
+    "#222222",
+    "#333333",
+    "#444444",
+    "#555555",
+    "#666666",
+    "#777777",
+    "#888888",
+    "#999999",
+    "#AAAAAA",
+    "#BBBBBB",
+    "#CCCCCC",
+    "#DDDDDD",
+    "#EEEEEE",
+    "#FFFFFF",
+  ];
+
+  // Set the initial index to 0
+  var index = 0;
+
+  // Set the interval to change the color every 250 milliseconds (1/4 second)
+  setInterval(function() {
+    // Update the color of the element
+    element.style.color = colors[index];
+
+    // Increment the index and wrap it around if necessary
+    index = (index + 1) % colors.length;
+  }, 250);
+</script>
     </body>
 <script>
     //Define charts:
