@@ -81,7 +81,18 @@ h1, h2, h3, p {
   /* Shift the content down by a smaller amount */
   margin-top: 50px;
 }
+.pie-chart-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 16px;
+}
 
+.pie-chart {
+  width: 200px;
+  height: 200px;
+  background-color: #eee;
+  border-radius: 50%;
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {
