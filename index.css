@@ -48,7 +48,7 @@
 }
 
 /* Choose the appearance of the tags, h1, h3 and p: */
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
     color:rgb(255,255,255);
     font-family: 'Roboto', sans-serif;
     text-align: center;
