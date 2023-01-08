@@ -8,19 +8,6 @@
 	z-index: 999;
 }
 
-.logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-	height: 75px;
-	z-index: 999;
-  }
-
-#bio-container {
-  text-align: center; /* center the button horizontally */
-  margin: 20px;
-}
-
 .chart {
   display: block;
   margin: 0 auto; /* center the chart horizontally */
@@ -29,18 +16,6 @@
   z-index: 1;
 }
 
-.video-container {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    z-index: -1;
-}
        
  .content {
      color:rgb(255,255,255);
@@ -55,6 +30,34 @@ h1, h2, h3, p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     z-index:1000;
+}
+
+
+
+
+
+
+/*Style size and position of logo */
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+	height: 75px;
+	z-index: 999;
+  }
+
+
+.video-container {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: -1;
 }
 
 /* Add a black background color to the top navigation */
@@ -76,6 +79,11 @@ h1, h2, h3, p {
     font-size: 13px;
   border-radius: 18888px;
 	
+}
+
+#bio-container {
+  text-align: center; /* center the button horizontally */
+  margin: 20px;
 }
 
 .shift-down {
