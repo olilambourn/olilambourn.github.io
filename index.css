@@ -13,6 +13,14 @@
     max-width: 600px;
     z-index: 1
 }
+@media screen and (max-width:768px) {
+    .content {
+        width: 100%;
+	margin-left: 0;
+        
+    }
+}
+
 
 .chart {
   margin: 0 auto; /* Center the chart horizontally */
@@ -20,16 +28,25 @@
   max-width: 100%; /* Set a maximum width to make the chart responsive */
 }
 
-
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     .chart {
         width: 100%;
-        margin-left: 0
+        margin-left: 0;
     }
+}
 
-    .chart,.chart:hover {
-        transform: none
-    }
+
+   .rectangle-chart {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+@media (max-width: 768px) {
+  .rectangle-chart {
+    width: 100%;
+margin-left: 0;
+  }
 }
 
        
