@@ -1,0 +1,88 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "USA vs China: Military Spending (USD & % of GDP) and Personnel",
+    "subtitle": [
+      "Bubble Chart 2000-2019 Source:Stockholm International Peace Research Institute",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 9,
+    "anchor": "start",
+    "color": "black"
+  },
+  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "data": {
+    "url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/militarystrength.csv"
+  },
+  "params": [
+    {
+      "name": "Year",
+      "value": 2000,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2019,
+        "step": 1,
+        "name": "Start year:"
+      }
+    }
+  ],
+  "transform": [{"filter": "datum.Year == Year"}],
+  "mark": {"type": "circle", "color": "palevioletred", "opacity": 0.8},
+  "height": 300,
+  "width": 300,
+  "encoding": {
+    "x": {
+      "field": "GDP",
+      "type": "quantitative",
+      "axis": {"grid": false, "labelAngle": 45},
+      "scale": {"domain": [0, 5]},
+      "title": "Military Spending % of GDP"
+    },
+    "y": {
+      "field": "US",
+      "type": "quantitative",
+      "scale": {"type": "linear", "domain": [10000, 1000000]},
+      "title": "Military Spending (USD Mil)"
+    },
+    "size": {
+      "field": "Personnel",
+      "type": "quantitative",
+      "title": "Personnel",
+       "scale": {"range": [1000, 2000]},
+      "legend": null
+    },
+    "color": {
+      "field": "Personnel",
+      "type": "quantitative",
+     
+      "scale": {"range": ["blue", "red"]}
+    },
+    "tooltip": [
+      {
+      "field": "Country", 
+      "type": "nominal", 
+      "title": "Country"},
+
+      {
+      "field": "Personnel", 
+      "type": "quantitative", 
+      "title": "Military Personnel",
+      "format": ","
+      },
+      {
+        "field": "US",
+        "type": "ordinal",
+        "title": "Military Spending (USD Mil)",
+        "format": ","
+      },
+      {
+        "field": "GDP",
+        "type": "quantitative",
+        "title": "Spend as% of GDP",
+        "format": ".2f"
+      }
+    ]
+  }
+}
