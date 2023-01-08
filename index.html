@@ -74,24 +74,26 @@
   <p id="bio" style="display:none">Welcome to my first website. I am a third year Economics Student at the University of Bristol. This website serves the purpose of documenting progress throughout my 3rd year Data Science module. I will update this throughout the term, until my project has culminated .
 The tabs at the top of the page take you to the following pages: Final Project shows the work that shall be marked. Portfolio shows the material created throughout the module as I learn. GitHub takes you to the websites code repository. Please note, if you hover your cursor over any chart, it will zoom in, for an easy viewing process. (If you are viewing on a mobile devide with 'low-battery mode' a play-button may appear in the background of the video. Turn mode off to allow this to disappear) Enjoy!. </p>
 
-
+<div class="shift-down">
+  <!-- Content below bio goes in here. Allows it to shift down so not blocked by bio when opened.-->
     <div class= "chart" id="Chart1"></div>
     <div class= "chart" id="Chart2"></div>
     
-    
+    <div class="pie-chart-grid">
+  <div class="pie-chart">
       <div class= "chart" id="Chart3"></div>
       <div class= "chart" id="Chart4"></div>
       <div class= "chart" id="Chart5"></div>
       <div class= "chart" id="Chart6"></div>
       <div class= "chart" id="Chart7"></div>
       <div class= "chart" id="Chart8"></div>
-       <div class= "chart" id="Chart9"></div>
-      <div class= "chart" id="Chart10"></div>
-      <div class= "chart" id="Chart11"></div>
-      
+      </div>
+        </div>
     
-
- 
+    <div id="Chart9"> </div> 
+    <div id="Chart10"> </div> 
+    <div id="Chart11"> </div> 
+    </div>
 
 <script>
 function revealBio() {
@@ -169,14 +171,14 @@ setInterval(function() {
 <script>
     //Define charts:
     var myChart1 = "projectmapmean.json";
-    var myChart2 = "projectgdpforecast.json";
+    var myChart2 = "projectmapmedian.json";
     var myChart3 = "projectpie1.json";
     var myChart4 = "projectpie2.json";
     var myChart5 = "projectpie3.json";
     var myChart6 = "projectpie4.json";
     var myChart7 = "projectpie5.json";
     var myChart8 = "projectpie6.json";
-    var myChart9 = "projectmapmedian.json";
+    var myChart9 = "projectgdpforecast.json";
     var myChart10 = "USApoppyramid.json";
     var myChart11 = "Chinapoppyramid.json";
    
@@ -195,4 +197,3 @@ setInterval(function() {
     vegaEmbed('#Chart11', myChart11);
     
     </script>
-   
