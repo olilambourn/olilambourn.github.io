@@ -77,13 +77,13 @@
       {
         "field": "Education",
         "type": "quantitative",
-        "title": "Education Expenditure",
+        "title": "Education Expenditure (USD)",
         "format": ".0f"
       },
       {
         "field": "Wage",
         "type": "quantitative",
-        "title": "GDP per capita",
+        "title": "Average Wage (USD)",
         "format": ".0f"
       }
     ]
