@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 350,
+  "config": {
+    "background": "white",
+    "view": {"stroke": "transparent"},
+    "padding": {"top": 5}
+  },
+  "title": {
+    "text": "Productivity-GDP per Hour Worked, 2020 Data",
+    "fontSize": 15,
+    "subtitle": "For Nations with Data on OECD database. Source: OECD, Productivity and ULC",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 11,
+    "anchor": "middle",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/ergrko/ergrko.github.io/main/world.geo.json",
+    "format": {"property": "features"}
+  },
+  "projection": {"type": "naturalEarth1"},
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+       
+        "data": {
+          "url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/productivity.csv"
+        },
+
+
+       "key": "Entity",
+        "fields": ["Productivity: output per hour worked"]
+      }
+    }
+  ],  
+  "mark": {"type": "geoshape", "stroke": "darkgrey", "strokeWidth": 1.2},
+  "encoding": {
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "Country"},
+      {
+        "field": "Productivity: output per hour worked",
+        "title": "Output per hour (US $)",
+        "format": ".0f"
+
+      }
+    ],
+    "color": {
+      "field": "Productivity: output per hour worked",
+      "type": "quantitative",
+      "scale": {"type": "log", "scheme": "redyellowgreen"},
+      "legend": {"orient": "bottom-left", "title": "Output per hour worked (USD)", "direction": "horizontal"}
+    }
+  }
+}
