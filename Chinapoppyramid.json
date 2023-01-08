@@ -1,0 +1,75 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"description": "A population pyramid for China in 2020.",
+
+"title": {
+    "text": "China Population Pyramid 2020",
+    "fontSize": 15,
+    "subtitle": "Source: United Nations, Department of Economic and Social Affairs, Population Division.",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 11,
+    "anchor": "middle",
+    "color": "black"
+  },
+
+"data": { "url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/chinapopulation.csv"},
+"spacing": 0,
+"hconcat": [{
+
+
+"title": "Female",
+"mark": "bar",
+"encoding": {
+"y": {
+"field": "Age", "title": "Age", "axis": null, "sort": "descending"
+},
+"x": {
+"aggregate": "sum", "field": "F",
+"title": "population",
+"axis": {"format": "s"},
+"sort": "descending"
+},
+"color": {
+"value": "#ffd966"
+}
+}
+}, 
+{
+"width": 20,
+"view": {"stroke": null},
+"mark": {
+"type": "text",
+"align": "center"
+},
+"encoding": {
+"y": {"field": "Age", "type": "ordinal", "axis": null, "sort": "descending", "title": "Age"},
+"text": {"field": "Age", "type": "ordinal"}
+}
+}, {
+
+"title": "Male",
+"mark": "bar",
+"encoding": {
+    "tooltip": [
+      {"field": "F", "type": "quantitative", "format": ",", "title": "Female Population"},
+      {"field": "M", "type": "quantitative","format": ",", "title": "Male Population"} ],
+"y": {
+"field": "Age", "axis": null, "sort": "descending"
+},
+"x": {
+"aggregate": "sum", "field": "M",
+"title": "population",
+"axis": {"format": "s"}
+},
+"color": {
+"scale": {"range": ["#05ffa1"]},
+"legend": null
+}
+}
+}],
+"config": {
+"view": {"stroke": null},
+"axis": {"grid": false}
+},
+
+}
