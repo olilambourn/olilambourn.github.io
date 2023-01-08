@@ -8,6 +8,12 @@
 	z-index: 999;
 }
 
+.content {
+    margin: auto;
+    max-width: 600px;
+    z-index: 1
+}
+
 .chart {
     background-color: #fff;
     border-width: 10px;
