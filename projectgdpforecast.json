@@ -3,8 +3,8 @@
   "title": {
     "text": "Real GDP Long-Term Forecast 2020-2060: USA, China, India, UK, Japan, Germany",
     "subtitle": [
-      "API Sourced Multi Series Line Chart Depicting Forecasted Growth of 6 Economies. Source: OECD Economic Outlook (2021)",
-      ""
+      "API Sourced Multi Series Line Chart Depicting Forecasted Growth of 6 Economies. Source: OECD Economic Outlook (2021)"
+      
     ],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
@@ -13,7 +13,7 @@
   },
   "config": {"background": "white", "view": {"stroke": "transparent"}},
   "data": {
-    "url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/forecastgdp.csv",
+    "url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/forecastgdp.csv"
   },
   "transform": [
   {
@@ -67,7 +67,7 @@
     "tooltip": [
   {"field": "Country", "type": "nominal", "title": "Country"},
   {"field": "Time", "type": "temporal", "title": "Date"},
-  {"field": "Value", "type": "quantitative", "format": ",", "title": "Forecast GDP (Million USD)"},
+  {"field": "Value", "type": "quantitative", "format": ",", "title": "Forecast GDP (Million USD)"}
   ]
   
 }
