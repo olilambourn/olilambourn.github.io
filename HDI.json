@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Human Devlopement Index Ranking 2021",
+    "text": "Human Development Index Ranking 2021",
     "subtitle": [
       "Bar Chart of Randomly Selected Nations on Human Devlopment Index 2021 (including China and USA.) (Source: United Nations Development Programme)",
       ""
