@@ -11,13 +11,10 @@
     "anchor": "start",
     "color": "black"
   },
- 
   "config": {"background": "white", "view": {"stroke": "transparent"}},
   "data": {
     "url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/projectbubblechartdata.csv"
   },
-  
-  
   "params": [
     {
       "name": "Year",
@@ -31,11 +28,7 @@
       }
     }
   ],
-  "transform": [
-    {"filter": "datum.Year == Year"}
-   
-  ],
-  
+  "transform": [{"filter": "datum.Year == Year"}],
   "mark": {"type": "circle", "color": "palevioletred", "opacity": 0.8},
   "height": 300,
   "width": 300,
@@ -50,7 +43,7 @@
     "y": {
       "field": "Wage",
       "type": "quantitative",
-      "axis": {"grid": false},
+      "axis": {"grid": true},
       "scale": {"domain": [0, 80000]},
       "title": "Average Wage (US $)"
     },
@@ -68,12 +61,7 @@
     },
     "tooltip": [
       {"field": "Country", "type": "nominal", "title": "Country"},
-      {
-        "field": "Gini",
-        "type": "quantitative",
-        "title": "Gini Coefficient %"
-        
-      },
+      {"field": "Gini", "type": "quantitative", "title": "Gini Coefficient %"},
       {
         "field": "Education",
         "type": "quantitative",
