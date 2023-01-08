@@ -1,0 +1,91 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "USA vs China: Spending per Student, Wages, Gini Coefficient",
+    "subtitle": [
+      "Bubble Chart 2010-2019. (Source: OECD, National Bureau of Statistics for Peoples Republic of China)",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 9,
+    "anchor": "start",
+    "color": "black"
+  },
+ 
+  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "data": {
+    "url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/projectbubblechartdata.csv"
+  },
+  
+  
+  "params": [
+    {
+      "name": "Year",
+      "value": 2010,
+      "bind": {
+        "input": "range",
+        "min": 2010,
+        "max": 2019,
+        "step": 1,
+        "name": "Start year:"
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.Year == Year"}
+   
+  ],
+  
+  "mark": {"type": "circle", "color": "palevioletred", "opacity": 0.8},
+  "height": 300,
+  "width": 300,
+  "encoding": {
+    "x": {
+      "field": "Gini",
+      "type": "quantitative",
+      "axis": {"grid": false, "labelAngle": 45},
+      "scale": {"domain": [30, 50]},
+      "title": "Gini Coefficient %"
+    },
+    "y": {
+      "field": "Wage",
+      "type": "quantitative",
+      "axis": {"grid": false},
+      "scale": {"domain": [0, 80000]},
+      "title": "Average Wage (US $)"
+    },
+    "size": {
+      "field": "Education",
+      "type": "quantitative",
+      "title": "Education Spending per Student",
+      "scale": {"range": [900, 4500]},
+      "legend": null
+    },
+    "color": {
+      "field": "Education",
+      "type": "quantitative",
+      "scale": {"range": ["red", "blue"]}
+    },
+    "tooltip": [
+      {"field": "Country", "type": "nominal", "title": "Country"},
+      {
+        "field": "Gini",
+        "type": "quantitative",
+        "title": "Gini Coefficient %"
+        
+      },
+      {
+        "field": "Education",
+        "type": "quantitative",
+        "title": "Education Expenditure",
+        "format": ".0f"
+      },
+      {
+        "field": "Wage",
+        "type": "quantitative",
+        "title": "GDP per capita",
+        "format": ".0f"
+      }
+    ]
+  }
+}
