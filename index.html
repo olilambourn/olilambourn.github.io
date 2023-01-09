@@ -122,9 +122,7 @@ The tabs at the top of the page take you to the following pages: Final Project s
      
      
     </div>
-        <p>Files used:</p>
-     <p>projectpie().json</p>
-      <p>worldwealth2021.csv</p>
+        
         <p>When it comes to high net-worth individuals, China is a way off the US. When looking at ultra high net-worth, China is more evenly matched. If backed by the GDP trend shown below, this gap may continue to close.</p>
                     <br>
           <hr/>
@@ -133,10 +131,7 @@ The tabs at the top of the page take you to the following pages: Final Project s
 <p>I accessed the  <a href="https://data.oecd.org/api/" id="intextlink">OECD API</a> and used <a href="https://www.crummy.com/software/BeautifulSoup/" id="intextlink">BeautifulSoup</a> to scrape the data on long-term forecasted real GDP for China and the USA. This data was then stored in a <a href = "https://pandas.pydata.org/" id="intextlink">Pandas</a> dataframe, allowing me to manipulate and analyze the data efficiently. I used the Pandas library to convert the data into a JSON object, as well as a CSV file for visualization. This can be seen in my <a href = "https://github.com/olilambourn/olilambourn.github.io/blob/main/OECDGDPForecast.ipynb" id="intextlink">Google Colab</a> file. The use of API means data will be refreshed automatically when the code is run, resulting in automation of data.</p>
     <p>It is a fact that China has surpassed the United States in GDP and is anticipated to continue widening the gap in the future. This alteration in the economic power dynamic may have substantial implications for the balance of power.</p>
     <div class= "chart" id="Chart9"></div>
-         <p>Files used:</p>
-      <p>OECDGDPForecast.ipynbn</p>
-      <p>projectgdpforecast.json</p>
-      <p>forecastgdp.csv</p>
+         
         
                <br>
         <hr/>
@@ -149,10 +144,7 @@ The tabs at the top of the page take you to the following pages: Final Project s
        <div class= "pyramid-chart" id="Chart11"></div>
         
     </div>
-       <p>Files used:</p>
-        <p>()poppyramid.json</p>
-        <p>chinapopulation.csv</p>
-        <p>USApopulation.csv</p>
+     
       
        <!-- This paragraph describes the Human Development Index chart and how the data was obtained -->
 <p>A bar chart presenting HDI figures. I <a href= "https://github.com/olilambourn/olilambourn.github.io/blob/main/HDI.ipynb" id="intextlink">scraped</a> this data from <a href= "https://en.wikipedia.org/wiki/List_of_countries_by_Human_Development_Index" id="intextlink">Wikipedia</a> (source: UN) using BeautifulSoup and Panda to manipulate and store the data.</p>
@@ -163,20 +155,13 @@ The tabs at the top of the page take you to the following pages: Final Project s
 <!-- This div contains the HDI chart -->
 <div class= "rectangle-chart" id="Chart16"></div>
 
-<!-- This paragraph lists the files used to create the HDI chart -->
-<p>Files used:</p>
-<p>HDI.ipynb</p>
-<p>HDI.csv</p>
-<p>HDI.json</p>
+
 
 <!-- This paragraph describes the bubble chart and how the data was obtained -->
         <p> The below bubble diagram compares Education Expenditure per Student, Average Wages and the Gini Coefficient between 2010-2019. Chinese <a href="https://github.com/olilambourn/olilambourn.github.io/blob/main/ChinaEducationSpend.ipynb" id="intextlink">education expenditure<a/> was scraped using BeautifulSoup and Pandas. The rest was compiled in csv format from the OECD website using excel.</p>
             <p> We see China has undergone a rapid upward trend in wages and education spending, coupled with falling inequality. The US has seen a rapid upward trend in education spending, with a slow rise in wages and a slight rise in inequality. <p/>
     <div class= "bubble" id="Chart12"></div>
-        <p>Files used:</p>
-        <p>ChinaEducationSpend.ipynb</p>
-        <p>projectbubblechartdata.csv</p>
-        <p>projectbubble.json</p>
+       
         <hr/>
         
         <h3>Military Might</h3>
@@ -184,9 +169,7 @@ The tabs at the top of the page take you to the following pages: Final Project s
         <p> Below is a bubble diagram comparing gross military spending, military spending as a % of GDP and military personnel sizes between 2000-2019. I downloaded data into CSV format from <a href="https://milex.sipri.org/sipri" id="intextlink">Stockholm International Peace Research Institute</a> to create this chart.</p>
         <p> We see rises in gross spending for both China and US, a slight fall in Chinas spending as a % of GDP and a rise then fall for the US. The US spends significantly more on its military, whilst China has a much larger personnel base throughout the period.<p/>
     <div class= "bubble" id="Chart13"></div>
-        <p>Files used:</p> 
-        <p>militarybubblechart.json</p>
-        <p>militarystrength.csv</p>
+        
         <hr/>
         
         <h3>Political Health</h3>
@@ -194,10 +177,7 @@ The tabs at the top of the page take you to the following pages: Final Project s
         <p>The political health of the US and China affect their global power.</p>
   <p> The data shows that the US is not poltically stable, but China's significantly less stable.</p>
         <div class= "rectangle-chart" id="Chart15"></div>
-        <p>Files used:</p>
-        <p>political_stability.csv</p>
-        <p>politicalstability.json</p>
-        <p>politicalstabilityindex.ipynb</p>
+        
         <hr/>
     <h3>Challenges</h3>
     <p>The lack of API's that contained data from China resulted in data scraping of multiple websites. This allowed me to manipulate data to display it effectively. However, it means the automation of the website is lacking and will need to be manually updated to stay relevant.</p>
