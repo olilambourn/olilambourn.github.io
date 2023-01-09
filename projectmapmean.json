@@ -1,12 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
-  "height": 350,
-  "config": {
-    "background": "white",
-    "view": {"stroke": "transparent"},
-    "padding": {"top": 6}
-  },
+  "width": 400,
+  "height": 275,
+ 
+    
+  
   "title": {
     "text": "Mean Wealth (US $) 2021",
     "fontSize": 15,
@@ -37,12 +35,7 @@
   "encoding": {
     "tooltip": [
       {"field": "properties.name", "type": "nominal", "title": "Country"},
-      {
-        "field": "Mean",
-        "title": "Mean Wealth US ($)",
-        "format": ".0f"
-
-      }
+      {"field": "Mean", "title": "Mean Wealth US ($)", "format": ".0f"}
     ],
     "color": {
       "field": "Mean",
