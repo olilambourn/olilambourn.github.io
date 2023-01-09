@@ -41,7 +41,7 @@
       "field": "Mean",
       "type": "quantitative",
       "scale": {"type": "log", "scheme": "redyellowgreen"},
-      "legend": {"orient": "bottom-left", "direction": "horizontal"}
+      "legend": {"orient": "bottom-left", "title": "$", "direction": "horizontal"}
     }
   }
 }
