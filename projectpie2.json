@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Distribution of $5-10m net-worth individuals",
-    "subtitle": "The richest around the world. Source: Credit Suisse",
+    "text": "$5-10m",
+    "subtitle": "Source: Credit Suisse",
     "subtitleFontStyle": "italic",
     "fontSize": 16,
     "subtitleFontSize": 13,
