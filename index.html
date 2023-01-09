@@ -110,7 +110,7 @@ The tabs at the top of the page take you to the following pages: Final Project s
 <p>My project does not contain many APIs due to Chinese data being hard to come across in well structured API's such as in The World Bank API or OECD API, hence, most data comes via csv files from datascraping of websites or PDF sources.</p>
 <p>These maps show that the USA is still far ahead of China in terms of Mean and Median wealth of their population. However, it is clear that inequality is higher in the USA, as the mean wealth has a much higher difference to the median when compared to China. This is made clearer in my later Bubble Chart where we see China's Gini Index being lower than the US. Inequality can lead to social unrest which can cause increasing political issues for a nation.</p>
 
-       
+       <!-- This div contains a grid of pie charts -->
     <div class="pie-chart-grid">
   
       <div class= "pie-chart" id="Chart3"></div>
@@ -155,14 +155,22 @@ The tabs at the top of the page take you to the following pages: Final Project s
         <p>chinapopulation.csv</p>
         <p>USApopulation.csv</p>
       
-       <p> Below is a bar chart presenting Human Development Index figures with China and USA highlighted. I <a href= "https://github.com/olilambourn/olilambourn.github.io/blob/main/HDI.ipynb" id="intextlink">scraped</a> this data from <a href= "https://en.wikipedia.org/wiki/List_of_countries_by_Human_Development_Index" id="intextlink">Wikipedia</a> (sourced from UN Development Programme) from  using BeautifulSoup and Panda to manipulate and store the data effectively.</p>
-        <p>The HDI is a composite of measures of a nation including health, knowledge and standard of living. Whilst the US is ranked 21st and China 79th, it is again the trend that is important to look at. In <a href= "https://countryeconomy.com/hdi?year=1990" id="intextlink">1990</a> the US was ranked 2nd whilst China was 103rd.</p>
-    <div class= "rectangle-chart" id="Chart16"></div>
-        <p>Files used:</p>
-        <p>HDI.ipynb</p>
-        <p>HDI.csv</p>
-        <p>HDI.json</p>
-      
+       <!-- This paragraph describes the Human Development Index chart and how the data was obtained -->
+<p>Below is a bar chart presenting Human Development Index figures with China and USA highlighted. I <a href= "https://github.com/olilambourn/olilambourn.github.io/blob/main/HDI.ipynb" id="intextlink">scraped</a> this data from <a href= "https://en.wikipedia.org/wiki/List_of_countries_by_Human_Development_Index" id="intextlink">Wikipedia</a> (sourced from UN Development Programme) from using BeautifulSoup and Panda to manipulate and store the data effectively.</p>
+
+<!-- This paragraph provides context for the HDI chart -->
+<p>The HDI is a composite of measures of a nation including health, knowledge and standard of living. Whilst the US is ranked 21st and China 79th, it is again the trend that is important to look at. In <a href= "https://countryeconomy.com/hdi?year=1990" id="intextlink">1990</a> the US was ranked 2nd whilst China was 103rd.</p>
+
+<!-- This div contains the HDI chart -->
+<div class= "rectangle-chart" id="Chart16"></div>
+
+<!-- This paragraph lists the files used to create the HDI chart -->
+<p>Files used:</p>
+<p>HDI.ipynb</p>
+<p>HDI.csv</p>
+<p>HDI.json</p>
+
+<!-- This paragraph describes the bubble chart and how the data was obtained -->
         <p> The below bubble diagram compares Education Expenditure per Student, Average Wages and the Gini Coefficient of USA and China between 2010-2019. This data was compiled from a number of locations. Chinese <a href="https://github.com/olilambourn/olilambourn.github.io/blob/main/ChinaEducationSpend.ipynb" id="intextlink">education expenditure<a/> was scraped using BeautifulSoup and Pandas. The rest was compiled in csv format from the OECD website using excel.</p>
             <p> We see China has undergone a rapid upward trend in wages and education spending, coupled with falling inequality. The US has seen a rapid upward trend in education spending, with a slow rise in wages and a slight rise in inequality. <p/>
     <div class= "bubble" id="Chart12"></div>
@@ -201,22 +209,32 @@ The tabs at the top of the page take you to the following pages: Final Project s
  </div>
  </div>
 
+
+<!-- This script defines the function to reveal or hide the bio when the "Click for bio" button is clicked -->
 <script>
-function revealBio() {
-  var bio = document.getElementById("bio");
-  var content = document.querySelector(".shift-down");
-  var button = document.querySelector("button");
-  if (bio.style.display === "none") {
-    bio.style.display = "block";
-    content.style.marginTop = "100px";
-    button.innerHTML = "Bio";
-  } else {
-    bio.style.display = "none";
-    content.style.marginTop = "0";
-    button.innerHTML = "Click for bio";
+  function revealBio() {
+    // Get the bio element and the content element
+    var bio = document.getElementById("bio");
+    var content = document.querySelector(".shift-down");
+    // Get the button element
+    var button = document.querySelector("button");
+
+    // If the bio is currently hidden, show it and shift the content down
+    if (bio.style.display === "none") {
+      bio.style.display = "block";
+      content.style.marginTop = "100px";
+      button.innerHTML = "Bio";
+    }
+    // If the bio is currently visible, hide it and shift the content back up
+    else {
+      bio.style.display = "none";
+      content.style.marginTop = "0";
+      button.innerHTML = "Click for bio";
+    }
   }
-}
 </script>
+
+<!-- This script hides the loading screen after the page has finished loading -->
 
      <script>
   function stopLoadingScreen() {
