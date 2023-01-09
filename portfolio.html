@@ -31,13 +31,16 @@
     
     
     <body>
+    <!-- Adds a loading screen class -->
 
         <div id="loading-screen">
     <canvas id="c"></canvas>
   </div>
-        
+            <!-- Adds a video-container class so I can style it appropriately -->
+
    <div class="video-container">
-      
+          <!-- Video fits to the screen and plays on repeat -->
+
     <video playsinline autoplay muted loop poster="video (6).mp4">
     <source src="video (6).mp4" type="video/mp4">
 </video>
@@ -73,12 +76,17 @@
 
         <h3>By Oli Lambourn</h3>
         <hr/><hr/>
+            <!--Content Begins here  -->
+
         <h2><b>Week 1</b></h2> 
         <p>The first task was to embed two charts onto my homepage</p>
             
         
         <h3><b>Comparing four economies</b></h3>
         <p>GDP, constant prices of Congo, Japan, Kenya, UK</p>
+        
+            <!--  Introduces first chart, in chart class-->
+
         <div class= "chart" id="Chart1"></div>
 
         <h3><b>Litter on UK Beaches</b></h3>
@@ -117,7 +125,8 @@
         <h2>Week 5</h2>
          
         <p>This weeks task was to create a 9 chart API dashboard</p>
-            
+                <!-- Creates slider-Slick.js -->
+
     <div class="single-item">       
     <div id="Chart8"> </div>     
     <div id="Chart9"> </div> 
@@ -130,11 +139,15 @@
     <div id="Chart16"> </div> 
            </div> 
      
+            <!-- Loads appropriate slick jquery code -->
+
         
          <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
         
+            <!-- Slick code for slider -->
+
         <script type="text/javascript">
     $(document).ready(function(){
      $('.single-item').slick({
@@ -193,7 +206,8 @@
         Below is my Supervised Learning Regression chart formed in this <a href = "https://github.com/olilambourn/olilambourn.github.io/blob/main/machinelearning1.ipynb"id="link1">Google Colab</a> notebook. </p>
         <img src="X1Y1.jpg" alt="X1Y1 image">
         </div>
-         
+           <!-- Loading screen js script -->
+  
   <script>
   function stopLoadingScreen() {
     setTimeout(function() {
