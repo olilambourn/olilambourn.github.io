@@ -52,7 +52,7 @@
    "y": {
     "field": "Value",
     "type": "quantitative",
-    "title": "Real GDP Forecast (USD Millions)",
+    "title": "Real GDP Forecast (USD Millions)"
   },
     "color": {"field": "Country", "type": "nominal"},
     "tooltip": [
