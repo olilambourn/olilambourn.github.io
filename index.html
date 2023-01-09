@@ -88,7 +88,7 @@ The tabs at the top of the page take you to the following pages: Final Project s
 
         <h3> Wealth of a Nation</h3>
         
-<p> I began by analysing the wealth of the Chinese and USA populations. I did so by looking at the Mean and Median Wealth, as well as analysing the share of world's high net worth individuals in each country. This data was sourced from the <a href = "https://www.credit-suisse.com/media/assets/corporate/docs/about-us/research/publications/global-wealth-report-2021-en.pdf" id="intextlink">Credit Suisse Global Wealth Report 2021</a>. This is a PDF, so I used Excel's 'Data from Picture' Function to change screenshots of the report into CSV files. The Mean and Median Wealth data is displayed on two World Maps, whilst the high net worth distribution is displayed in Pie Chart format.</p> 
+<p> I begin by analysing the wealth of the Chinese and USA populations. I do so by looking at the Mean and Median Wealth, as well as analysing the share of world's high net worth individuals in each country. This data was sourced from the <a href = "https://www.credit-suisse.com/media/assets/corporate/docs/about-us/research/publications/global-wealth-report-2021-en.pdf" id="intextlink">Credit Suisse Global Wealth Report 2021</a>. This is a PDF, so I used Excel's 'Data from Picture' Function to change screenshots of the report into CSV files. The Mean and Median Wealth data is displayed on two World Maps, whilst the high net worth distribution is displayed in Pie Chart format.</p> 
         
     
     <div class= "map" id="Chart1"></div>
@@ -122,7 +122,7 @@ The tabs at the top of the page take you to the following pages: Final Project s
           <hr/>
 
         <h3> Forecasted GDP Growth</h3>
-<p>I accessed the <a href="https://data.oecd.org/api/" id="intextlink">OECD API</a>and used <a href="https://www.crummy.com/software/BeautifulSoup/" id="intextlink">BeautifulSoup</a>to scrape the data on long-term forecasted real GDP from the EO dataset for China and the USA. This data was then stored in a <a href = "https://pandas.pydata.org/" id="intextlink">Pandas</a> dataframe, which allowed me to manipulate and analyze the data more efficiently. From there, I used the Pandas library to convert the data into a JSON object, as well as a CSV file for visualization. This can be seen in my <a href = "https://github.com/olilambourn/olilambourn.github.io/blob/main/OECDGDPForecast.ipynb" id="intextlink">Google Colab</a>file.</p>
+<p>I accessed the  <a href="https://data.oecd.org/api/" id="intextlink">OECD API</a>and used <a href="https://www.crummy.com/software/BeautifulSoup/" id="intextlink">BeautifulSoup</a>to scrape the data on long-term forecasted real GDP from the EO dataset for China and the USA. This data was then stored in a <a href = "https://pandas.pydata.org/" id="intextlink">Pandas</a> dataframe, which allowed me to manipulate and analyze the data more efficiently. From there, I used the Pandas library to convert the data into a JSON object, as well as a CSV file for visualization. This can be seen in my <a href = "https://github.com/olilambourn/olilambourn.github.io/blob/main/OECDGDPForecast.ipynb" id="intextlink">Google Colab</a>file.</p>
     <p>It is an established fact that China has surpassed the United States in terms of GDP and is anticipated to continue widening the gap in the foreseeable future. This alteration in the economic power dynamic between the two countries may have substantial implications for the balance of power between them.</p>
     <div class= "chart" id="Chart9"></div>
          <p>Files used:</p>
@@ -133,17 +133,19 @@ The tabs at the top of the page take you to the following pages: Final Project s
                <br>
         <hr/>
  <h3>Population</h3>
-    <div class="pyramid-chart-grid">
+   <p>Below I display population pyramids for China and the US. The data was downloaded in csv format with ease from a link on <a href="https://www.populationpyramid.net/" id=intextlink">this website</a> which they originally sourced from the Department of Economic and Social Affairs, UN. </p>
+<p> The age structure of a nations population is informative about the future. Both nations indicate a structure where the middle-aged population make up a larger segment of the population and the younger cohorts have gotten smaller over time. The problem is worse in China but still problematic in the US. In addition, China has a much less balanced ppulation with more males in every bracket below 65.</p>
+        <div class="pyramid-chart-grid">
   
        <div class= "pyramind-chart" id="Chart10"></div>
        <div class= "pyramid-chart" id="Chart11"></div>
         
     </div>
-    
+    <div class= "rectangle-chart" id="Chart16"></div>
     <div class= "bubble" id="Chart12"></div>
     <div class= "bubble" id="Chart13"></div>
     <div class= "rectangle-chart" id="Chart15"></div>
-    <div class= "rectangle-chart" id="Chart16"></div>
+  
    <p> This project has laid the foundations of analysis of China's rising position in the Geopolitical sphere of influence. Further analysis of the cost of rising inequality in the US, the effect of US and Chinese political instability and the educational attainment levels per dollar spent are where I would focus additional research to further the study.</p>
  </div>
  </div>
