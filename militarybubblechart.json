@@ -50,7 +50,7 @@
       "field": "Personnel",
       "type": "quantitative",
       "title": "Personnel",
-      "scale": {"range": [700, 1400]},
+      "scale": {"range": [100,1300]},
       "legend": null
     },
     "color": {
