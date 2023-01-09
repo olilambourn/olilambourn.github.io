@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
-  "height": 350,
+  "width": 400,
+  "height": 250,
   "config": {
     "background": "white",
     "view": {"stroke": "transparent"},
@@ -25,17 +25,14 @@
     {
       "lookup": "properties.name",
       "from": {
-       
         "data": {
           "url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/productivity.csv"
         },
-
-
-       "key": "Entity",
+        "key": "Entity",
         "fields": ["Productivity: output per hour worked"]
       }
     }
-  ],  
+  ],
   "mark": {"type": "geoshape", "stroke": "darkgrey", "strokeWidth": 1.2},
   "encoding": {
     "tooltip": [
@@ -44,14 +41,18 @@
         "field": "Productivity: output per hour worked",
         "title": "Output per hour (US $)",
         "format": ".0f"
-
       }
     ],
-    "color": {
+      "color": {
       "field": "Productivity: output per hour worked",
       "type": "quantitative",
       "scale": {"type": "log", "scheme": "redyellowgreen"},
-      "legend": {"orient": "bottom-left", "title": "Output per hour worked (USD)", "direction": "horizontal"}
+      "legend": {
+        "orient": "bottom-left",
+        "title": "Productivity (USD)",
+        "direction": "horizontal"
+      }
+  
     }
   }
 }
