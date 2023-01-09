@@ -107,8 +107,8 @@ The tabs at the top of the page take you to the following pages: Final Project s
 
    
 
-<p>My project does not contain many APIs due to Chinese data being hard to come across in well structured API's such as in The World Bank API or OECD API, hence, most data comes via csv files from datascraping of websites or PDF sources.</p>
-<p>These maps show that the USA is still well ahead of China in terms of Mean and Median wealth of their population. However, it is clear that inequality is higher in the USA, as the mean wealth has a much higher difference to the median when compared to China. This is made clearer in my later Bubble Chart where we see China's Gini Index being lower than the US. Inequality can lead to social unrest which can cause increasing political issues for a nation.</p>
+<p>My project does not contain many APIs due to Chinese data being hard to come across in API's, hence, most data comes via csv files from datascraping of websites or download options.</p>
+<p>These maps show the USA is well ahead of China in Mean and Median wealth of their population. However, inequality is higher in the USA, as the mean wealth has a much higher difference to the median when compared to China. This is made clearer later where we see China's Gini Index is lower than the US. Inequality can cause social unrest, problematic for a nation</p>
 
        <!-- This div contains a grid of pie charts -->
     <div class="pie-chart-grid">
@@ -125,7 +125,7 @@ The tabs at the top of the page take you to the following pages: Final Project s
         <p>Files used:</p>
      <p>projectpie().json</p>
       <p>worldwealth2021.csv</p>
-        <p>When it comes to high net-worth individuals, China is a way off the US. When looking at ultra high net-worth, China is increasingly evenly matched. As implied by the Chart below, this gap may continue to close with Chinas high net-worth individuals poised to overtake the USA in future decades.</p>
+        <p>When it comes to high net-worth individuals, China is a way off the US. When looking at ultra high net-worth, China is more evenly matched. If backed by the GDP trend shown below, this gap may continue to close.</p>
                     <br>
           <hr/>
 
@@ -141,7 +141,7 @@ The tabs at the top of the page take you to the following pages: Final Project s
                <br>
         <hr/>
  <h3>Population and Social Characteristics</h3>
-   <p>Below I display population pyramids for China and the US. The data was downloaded in csv format from a link on <a href="https://www.populationpyramid.net/" id="intextlink">this website</a> which they originally sourced from the UN. </p>
+   <p>I display population pyramids for China and the US. The data was downloaded in csv format from a link on <a href="https://www.populationpyramid.net/" id="intextlink">this website</a> which they originally sourced from the UN. </p>
 <p> The age structure of a nations population is informative about the future. Both indicate a structure where the middle-aged population make up a larger segment of the population whilst the younger cohorts have reduced in size. In the future, both  will have a large dependent elderly population resulting in huge social welfare costs. The problem is greater in China but still problematic in the US. China also has an incredibly unbalanced gender dynamic, with more males in every bracket below 65.</p>
         <div class="pyramid-chart-grid">
   
@@ -155,10 +155,10 @@ The tabs at the top of the page take you to the following pages: Final Project s
         <p>USApopulation.csv</p>
       
        <!-- This paragraph describes the Human Development Index chart and how the data was obtained -->
-<p>Below is a bar chart presenting HDI figures. I <a href= "https://github.com/olilambourn/olilambourn.github.io/blob/main/HDI.ipynb" id="intextlink">scraped</a> this data from <a href= "https://en.wikipedia.org/wiki/List_of_countries_by_Human_Development_Index" id="intextlink">Wikipedia</a> (sourced from UN Development Programme) from using BeautifulSoup and Panda to manipulate and store the data effectively.</p>
+<p>A bar chart presenting HDI figures. I <a href= "https://github.com/olilambourn/olilambourn.github.io/blob/main/HDI.ipynb" id="intextlink">scraped</a> this data from <a href= "https://en.wikipedia.org/wiki/List_of_countries_by_Human_Development_Index" id="intextlink">Wikipedia</a> (source: UN) from using BeautifulSoup and Panda to manipulate and store the data effectively.</p>
 
 <!-- This paragraph provides context for the HDI chart -->
-<p>The HDI is a composite of measures of a nation including health, knowledge and standard of living. Whilst the US is ranked 21st and China 79th, it is again the trend that is important to look at. In <a href= "https://countryeconomy.com/hdi?year=1990" id="intextlink">1990</a> the US was ranked 2nd whilst China was 103rd.</p>
+<p>The HDI is a composite of social measures. Whilst the US is ranked 21st and China 79th, it is again the trend that is important to look at. In <a href= "https://countryeconomy.com/hdi?year=1990" id="intextlink">1990</a> the US was ranked 2nd whilst China was 103rd.</p>
 
 <!-- This div contains the HDI chart -->
 <div class= "rectangle-chart" id="Chart16"></div>
@@ -170,7 +170,7 @@ The tabs at the top of the page take you to the following pages: Final Project s
 <p>HDI.json</p>
 
 <!-- This paragraph describes the bubble chart and how the data was obtained -->
-        <p> The below bubble diagram compares Education Expenditure per Student, Average Wages and the Gini Coefficient of USA and China between 2010-2019. This data was compiled from a number of locations. Chinese <a href="https://github.com/olilambourn/olilambourn.github.io/blob/main/ChinaEducationSpend.ipynb" id="intextlink">education expenditure<a/> was scraped using BeautifulSoup and Pandas. The rest was compiled in csv format from the OECD website using excel.</p>
+        <p> The below bubble diagram compares Education Expenditure per Student, Average Wages and the Gini Coefficient between 2010-2019. Chinese <a href="https://github.com/olilambourn/olilambourn.github.io/blob/main/ChinaEducationSpend.ipynb" id="intextlink">education expenditure<a/> was scraped using BeautifulSoup and Pandas. The rest was compiled in csv format from the OECD website using excel.</p>
             <p> We see China has undergone a rapid upward trend in wages and education spending, coupled with falling inequality. The US has seen a rapid upward trend in education spending, with a slow rise in wages and a slight rise in inequality. <p/>
     <div class= "bubble" id="Chart12"></div>
         <p>Files used:</p>
@@ -180,7 +180,7 @@ The tabs at the top of the page take you to the following pages: Final Project s
         <hr/>
         
         <h3>Military Might</h3>
-        <p>The military is a crucial aspect of a nation's ability to project hard-power globally. Lack of structured databases made compiling and comparing data on respective militaries difficult.</p>
+        <p>The military is a crucial aspect of a nation's ability to project hard-power globally. Lack of structured databases made compiling data on respective militaries difficult.</p>
         <p> Below is a bubble diagram comparing gross military spending, military spending as a % of GDP and military personnel sizes beween China and USA from 2000-2019. I downloaded data into CSV format from <a href="https://milex.sipri.org/sipri" id="intextlink">Stockholm International Peace Research Institute</a> to create this chart.</p>
         <p> We see rises in gross spending for both China and US, a slight fall in Chinas spending as a % of GDP and a rise then fall for the US. The US spends significantly more on its military, whilst China has a much larger personnel base throughtout the period.<p/>
     <div class= "bubble" id="Chart13"></div>
@@ -192,7 +192,7 @@ The tabs at the top of the page take you to the following pages: Final Project s
         <h3>Political Health</h3>
          <p>The below bar chart presents Political Stability Index figures for 2021. I <a href="https://github.com/olilambourn/olilambourn.github.io/blob/main/politicalstabilityindex.ipynb" id="intextlink">scraped</a> the data from <a href="https://www.theglobaleconomy.com/rankings/wb_political_stability/" id="intextlink">The Global Economy website</a>. The website sourced data from <a href="https://www.worldbank.org/en/home" id="intextlink">The World Bank</a>. Scraping the data allowed for efficient manipulation of the number of countries data used.</p>
         <p>The political health of the US and China affect their global power.</p>
-  <p> The data shows neither US or China are poltically stable, with China's political system being significantly less stable according to this metric.</p>
+  <p> The data shows that the US is not poltically stable, but China's significantly less stable.</p>
         <div class= "rectangle-chart" id="Chart15"></div>
         <p>Files used:</p>
         <p>political_stability.csv</p>
