@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Distribution of $50-100m net-worth individuals",
-    "subtitle": "The richest around the world. Source: Credit Suisse",
+    "text": "$50-100m",
+    "subtitle": "Source: Credit Suisse",
     "subtitleFontStyle": "italic",
     "fontSize": 16,
     "subtitleFontSize": 13,
@@ -14,8 +14,8 @@
     "url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/richpeople.csv"
   },
  
-  "width": 300,
-  "height": 300,
+  "width": 100,
+  "height": 100,
   "background": "#273349",
   "mark": {"type": "arc", "innerRadius": 80, "stroke": "white"},
   "encoding": {
