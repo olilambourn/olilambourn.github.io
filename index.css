@@ -52,6 +52,19 @@ body{
   padding: 16px;
 }
 
+.rectangle-chart{
+	margin: 0 auto; /* Center the chart horizontally */
+  display: block; /* Make the chart a block element */
+  max-width: 100%; /* Set a maximum width to make the chart responsive */
+}
+
+@media screen and (max-width:768px) {
+    .rectangle-chart {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+	
 .chart {
   margin: 0 auto; /* Center the chart horizontally */
   display: block; /* Make the chart a block element */
