@@ -27,6 +27,11 @@ body{
     }
 }
 
+#intextlink{
+	color:rgb(255,255,255);
+    font-family: 'Roboto', sans-serif;
+}
+	
 .pyramid-chart-grid{display: grid;
     grid-template-columns: repeat(1, 1fr);
   grid-gap: 16px;
