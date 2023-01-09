@@ -125,14 +125,13 @@ The tabs at the top of the page take you to the following pages: Final Project s
         <p>Files used:</p>
      <p>projectpie().json</p>
       <p>worldwealth2021.csv</p>
-        <p>These pie charts were easily reproduced, as all the data was in the same format, with only the y field being changed for each respective wealth level. This allowed for quick replication charts.</p>
-        <p>When it comes to high net-worth individuals, China is still a way off the US. However, when looking at ultra high net-worth ($100 million+), China is increasingly evenly matched. As implied by the GDP Forecast Chart below, this gap may continue to close with Chinas world share of high net-worth individuals looking to overtake the USA in future decades.</p>
+        <p>When it comes to high net-worth individuals, China is a way off the US. When looking at ultra high net-worth, China is increasingly evenly matched. As implied by the Chart below, this gap may continue to close with Chinas high net-worth individuals poised to overtake the USA in future decades.</p>
                     <br>
           <hr/>
 
         <h3> Looking Forward: GDP Growth</h3>
 <p>I accessed the  <a href="https://data.oecd.org/api/" id="intextlink">OECD API</a> and used <a href="https://www.crummy.com/software/BeautifulSoup/" id="intextlink">BeautifulSoup</a> to scrape the data on long-term forecasted real GDP from the EO dataset for China and the USA. This data was then stored in a <a href = "https://pandas.pydata.org/" id="intextlink">Pandas</a> dataframe, which allowed me to manipulate and analyze the data more efficiently. From there, I used the Pandas library to convert the data into a JSON object, as well as a CSV file for visualization. This can be seen in my <a href = "https://github.com/olilambourn/olilambourn.github.io/blob/main/OECDGDPForecast.ipynb" id="intextlink">Google Colab</a> file. The use of API means data will be refreshed automatically when the code is run, resulting in efficient automation of data.</p>
-    <p>It is an established fact that China has surpassed the United States in terms of GDP and is anticipated to continue widening the gap in the foreseeable future. This alteration in the economic power dynamic between the two countries may have substantial implications for the balance of power between them.</p>
+    <p>It is an  fact that China has surpassed the United States in GDP and is anticipated to continue widening the gap in the future. This alteration in the economic power dynamic may have substantial implications for the balance of power.</p>
     <div class= "chart" id="Chart9"></div>
          <p>Files used:</p>
       <p>OECDGDPForecast.ipynbn</p>
@@ -142,8 +141,8 @@ The tabs at the top of the page take you to the following pages: Final Project s
                <br>
         <hr/>
  <h3>Population and Social Characteristics</h3>
-   <p>Below I display population pyramids for China and the US. The data was downloaded in csv format with ease from a link on <a href="https://www.populationpyramid.net/" id="intextlink">this website</a> which they originally sourced from the Department of Economic and Social Affairs, UN. </p>
-<p> The age structure of a nations population is informative about the future. Both nations indicate a structure where the middle-aged population make up a larger segment of the population whilst the younger cohorts have reduced in size over time. In the future, both nations will have a large dependent elderly population resulting in huge social welfare costs. The problem is greater in China but still problematic in the US. China also has an incredibly unbalanced gender with more males in every bracket below 65, a serious societal problem.</p>
+   <p>Below I display population pyramids for China and the US. The data was downloaded in csv format from a link on <a href="https://www.populationpyramid.net/" id="intextlink">this website</a> which they originally sourced from the UN. </p>
+<p> The age structure of a nations population is informative about the future. Both indicate a structure where the middle-aged population make up a larger segment of the population whilst the younger cohorts have reduced in size. In the future, both  will have a large dependent elderly population resulting in huge social welfare costs. The problem is greater in China but still problematic in the US. China also has an incredibly unbalanced gender dynamic, with more males in every bracket below 65.</p>
         <div class="pyramid-chart-grid">
   
        <div class= "pyramind-chart" id="Chart10"></div>
@@ -156,7 +155,7 @@ The tabs at the top of the page take you to the following pages: Final Project s
         <p>USApopulation.csv</p>
       
        <!-- This paragraph describes the Human Development Index chart and how the data was obtained -->
-<p>Below is a bar chart presenting Human Development Index figures with China and USA highlighted. I <a href= "https://github.com/olilambourn/olilambourn.github.io/blob/main/HDI.ipynb" id="intextlink">scraped</a> this data from <a href= "https://en.wikipedia.org/wiki/List_of_countries_by_Human_Development_Index" id="intextlink">Wikipedia</a> (sourced from UN Development Programme) from using BeautifulSoup and Panda to manipulate and store the data effectively.</p>
+<p>Below is a bar chart presenting HDI figures. I <a href= "https://github.com/olilambourn/olilambourn.github.io/blob/main/HDI.ipynb" id="intextlink">scraped</a> this data from <a href= "https://en.wikipedia.org/wiki/List_of_countries_by_Human_Development_Index" id="intextlink">Wikipedia</a> (sourced from UN Development Programme) from using BeautifulSoup and Panda to manipulate and store the data effectively.</p>
 
 <!-- This paragraph provides context for the HDI chart -->
 <p>The HDI is a composite of measures of a nation including health, knowledge and standard of living. Whilst the US is ranked 21st and China 79th, it is again the trend that is important to look at. In <a href= "https://countryeconomy.com/hdi?year=1990" id="intextlink">1990</a> the US was ranked 2nd whilst China was 103rd.</p>
