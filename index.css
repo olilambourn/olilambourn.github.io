@@ -28,8 +28,7 @@ body{
 }
 
 .pyramid-chart-grid{display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   grid-gap: 16px;
   background-color: rgba(144, 238, 144, 0.5); /* This is light green with 50% opacity */
   border: 1px solid black;
