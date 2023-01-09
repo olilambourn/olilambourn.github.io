@@ -1,77 +1,98 @@
 /* Import a font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+/* Style position of element with id "c" */
 #c {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 999;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 999;
 }
 
+/* Style body background color and width */
 body{
-    background-color: #abccdf;
-    max-width: 100%;
-    margin: auto;
- }
+background-color: #abccdf;
+max-width: 100%;
+margin: auto;
+}
 
+/* Style size and position of logo */
+.logo {
+position: absolute;
+top: 0;
+left: 0;
+height: 75px;
+z-index: 999;
+}
+
+/* Style content container */
 .content {
-    margin: auto;
-    max-width: 600px;
-    z-index: 1
-}
-@media screen and (max-width:768px) {
-    .content {
-        width: 100%;
-	margin-left: 0;
-        
-    }
+margin: auto;
+max-width: 600px;
+z-index: 1
 }
 
+/* Make content container full width on small screens */
+@media screen and (max-width:768px) {
+.content {
+width: 100%;
+margin-left: 0;
+}
+}
+
+/* Style intextlink element */
 #intextlink{
-	color:rgb(255,255,255);
-    font-family: 'Roboto', sans-serif;
+color:rgb(255,255,255);
+font-family: 'Roboto', sans-serif;
 }
-	.map-grid{
-	display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  grid-gap: 16px;
-  background-color: rgba(144, 238, 144, 0.5); /* This is light green with 50% opacity */
-  border: 1px solid black;
-  border-radius: 4px;
-  padding: 16px;
+
+/* Style map-grid element */
+.map-grid{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-gap: 16px;
+background-color: rgba(144, 238, 144, 0.5); / This is light green with 50% opacity */
+border: 1px solid black;
+border-radius: 4px;
+padding: 16px;
 }
+
+/* Style pyramid-chart-grid element */
 .pyramid-chart-grid{
-	display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  grid-gap: 16px;
-  background-color: rgba(144, 238, 144, 0.5); /* This is light green with 50% opacity */
-  border: 1px solid black;
-  border-radius: 4px;
-  padding: 16px;
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-gap: 16px;
+background-color: rgba(144, 238, 144, 0.5); / This is light green with 50% opacity */
+border: 1px solid black;
+border-radius: 4px;
+padding: 16px;
 }
-	
+
+/* Style pie-chart-grid element */
 .pie-chart-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 16px;
-  background-color: rgba(144, 238, 144, 0.5); /* This is light green with 50% opacity */
-  border: 1px solid black;
-  border-radius: 4px;
-  padding: 16px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-gap: 16px;
+background-color: rgba(144, 238, 144, 0.5); / This is light green with 50% opacity */
+border: 1px solid black;
+border-radius: 4px;
+padding: 16px;
 }
 
+/* Style rectangle-chart element */
 .rectangle-chart{
-	margin: 0 auto; /* Center the chart horizontally */
-  display: block; /* Make the chart a block element */
-  max-width: 100%; /* Set a maximum width to make the chart responsive */
+margin: 0 auto; / Center the chart horizontally /
+display: block; / Make the chart a block element /
+max-width: 100%; / Set a maximum width to make the chart responsive */
 }
 
+/* Make rectangle-chart full width on small screens */
 @media screen and (max-width:768px) {
-    .rectangle-chart {
-        width: 100%;
-        margin-left: 0;
-    }
+.rectangle-chart {
+width: 100%;
+margin-left: 0;
+}
 }
 	
 .chart {
@@ -88,26 +109,11 @@ body{
 }
 
 
-   .rectangle-chart {
-  display: block;
-  margin: 0 auto;
-  max-width: 90%;
-}
+   
 
-@media (max-width: 768px) {
-  .rectangle-chart {
-    width: 100%;
-margin-left: 0;
-  }
-}
 
        
- .content {
-     color:rgb(255,255,255);
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-     z-index: 1;
-}
+
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h2, h3, h4, p {
