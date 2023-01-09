@@ -28,6 +28,16 @@ body{
 }
 
 
+.pie-chart-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 16px;
+}
+
 .chart {
   margin: 0 auto; /* Center the chart horizontally */
   display: block; /* Make the chart a block element */
