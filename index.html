@@ -63,42 +63,50 @@
 </div>
      
 
- <div id="loading-screen">
-    <canvas id="c"></canvas>
-     </div>
-    
+<!-- This div contains a loading screen with a canvas element -->
+<div id="loading-screen">
+  <canvas id="c"></canvas>
+</div>
+
+<!-- This div contains a bio section with a button to toggle the bio text -->
 <div id="bio-container">
- <button class="bio-button" onclick="revealBio()">Click for bio</button>
+  <button class="bio-button" onclick="revealBio()">Click for bio</button>
   <p id="bio" style="display:none">Welcome to my first website. I am a third year Economics Student at the University of Bristol. This website serves the purpose of documenting progress throughout my 3rd year Data Science module. I will update this throughout the term, until my project has culminated .
 The tabs at the top of the page take you to the following pages: Final Project shows the work that shall be marked. Portfolio shows the material created throughout the module as I learn. GitHub takes you to the websites code repository. Please note, if you hover your cursor over any chart, it will zoom in, for an easy viewing process. (If you are viewing on a mobile devide with 'low-battery mode' a play-button may appear in the background of the video. Turn mode off to allow this to disappear) Enjoy!. </p>
 
+<!-- This div shifts the content below the bio down when the bio is opened -->
 <div class="shift-down">
- 
-    <div class="content">
-    
+
+  <!-- This div contains the main content of the page -->
+  <div class="content">
+
+    <!-- This comment indicates that the content below the bio should go in this div -->
     <!-- Content below bio goes in here. Allows it to shift down so not blocked by bio when opened.-->
-           
 
-   <h2>USA vs China: A New World Order?</h2>
+    <h2>USA vs China: A New World Order?</h2>
 
-<p>For over a century, the USA has been the dominant world superpower. This project aims to analyse the extent to which China is challenging that title.<p> 
+    <p>For over a century, the USA has been the dominant world superpower. This project aims to analyse the extent to which China is challenging that title.<p>
 
-      
-                  <hr/>
+    <hr/>
 
-        <h3> Wealth of a Nation</h3>
-        
-<p> I begin by analysing the wealth of the Chinese and USA populations. I do so by looking at the Mean and Median Wealth, as well as analysing the share of world's high net worth individuals in each country. This data was sourced from the <a href = "https://www.credit-suisse.com/media/assets/corporate/docs/about-us/research/publications/global-wealth-report-2021-en.pdf" id="intextlink">Credit Suisse Global Wealth Report 2021</a>. This is a PDF, so I used Excel's 'Data from Picture' Function to change screenshots of the report into CSV files. The Mean and Median Wealth data is displayed on two World Maps, whilst the high net worth distribution is displayed in Pie Chart format.</p> 
-        
+    <h3>Wealth of a Nation</h3>
+
+    <p>I begin by analysing the wealth of the Chinese and USA populations. I do so by looking at the Mean and Median Wealth, as well as analysing the share of world's high net worth individuals in each country. This data was sourced from the <a href = "https://www.credit-suisse.com/media/assets/corporate/docs/about-us/research/publications/global-wealth-report-2021-en.pdf" id="intextlink">Credit Suisse Global Wealth Report 2021</a>. This is a PDF, so I used Excel's 'Data from Picture' Function to change screenshots of the report into CSV files. The Mean and Median Wealth data is displayed on two World Maps, whilst the high net worth distribution is displayed in Pie Chart format.</p>
+
+    <!-- This div contains a grid of maps -->
     <div class="map-grid">
-    <div class= "map" id="Chart1"></div>
-    <div class= "map" id="Chart2"></div>
-        </div>
+      <div class= "map" id="Chart1"></div>
+      <div class= "map" id="Chart2"></div>
+    </div>
+
     <p>Files used:</p>
-      <p>world.geo.json</p>
-      <p>projectmapmean.json</p>
-        <p>projectmapmedian.json</p>
-        <p>worldwealth2021.csv</p>
+    <p>world.geo.json</p>
+    <p>projectmapmean.json</p>
+    <p>projectmapmedian.json</p>
+    <p>worldwealth2021.csv</p>
+
+   
+
 <p>My project does not contain many APIs due to Chinese data being hard to come across in well structured API's such as in The World Bank API or OECD API, hence, most data comes via csv files from datascraping of websites or PDF sources.</p>
 <p>These maps show that the USA is still far ahead of China in terms of Mean and Median wealth of their population. However, it is clear that inequality is higher in the USA, as the mean wealth has a much higher difference to the median when compared to China. This is made clearer in my later Bubble Chart where we see China's Gini Index being lower than the US. Inequality can lead to social unrest which can cause increasing political issues for a nation.</p>
 
