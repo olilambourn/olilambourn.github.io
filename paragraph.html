@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paragraph Counter</title>
+  </head>
+  <body>
+    <h1>Paragraph Counter</h1>
+    <form>
+      <label for="text-input">Enter text:</label><br>
+      <textarea id="text-input" name="text" rows="10" cols="50"></textarea><br>
+      <button type="button" onclick="countParagraphs()">Count Paragraphs</button>
+    </form>
+    <hr>
+    <div id="output"></div>
+
+    <script>
+      function countParagraphs() {
+        const inputText = document.getElementById("text-input").value;
+        const paragraphs = inputText.split("\n\n");
+        let outputHtml = "";
+        for (let i = 0; i < paragraphs.length; i++) {
+          const paragraph = paragraphs[i];
+          if (paragraph.length > 0 && !paragraph.startsWith("<")) {
+            outputHtml += `<p>${i + 1}. ${paragraph}</p>`;
+          }
+        }
+        document.getElementById("output").innerHTML = outputHtml;
+      }
+    </script>
+  </body>
+</html>
