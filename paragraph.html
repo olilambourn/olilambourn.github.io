@@ -5,18 +5,16 @@
   </head>
   <body>
     <h1>Paragraph Counter</h1>
-    <form>
-      <label for="text-input">Enter text:</label><br>
-      <textarea id="text-input" name="text" rows="10" cols="50"></textarea><br>
-      <button type="button" onclick="countParagraphs()">Count Paragraphs</button>
-    </form>
+    <div id="text-input" contenteditable="true" style="height: 300px; border: 1px solid black; padding: 10px;"></div>
+    <button type="button" onclick="countParagraphs()">Count Paragraphs</button>
     <hr>
     <div id="output"></div>
 
     <script>
       function countParagraphs() {
-        const inputText = document.getElementById("text-input").value;
-        const paragraphs = inputText.split("\n\n");
+        const inputDiv = document.getElementById("text-input");
+        const inputText = inputDiv.innerHTML;
+        const paragraphs = inputText.split("<br>");
         let outputHtml = "";
         for (let i = 0; i < paragraphs.length; i++) {
           const paragraph = paragraphs[i];
