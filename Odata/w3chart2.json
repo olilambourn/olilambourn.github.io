@@ -1,0 +1,34 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart with embedded data.",
+    
+    "title": {
+      "text": "Hours Studied",
+      "subtitle":["Hours spent studying each day of the first week of May 2022"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+    
+    "data": {
+      "values": [ 
+        {"a": "A", "Hours of study": 6, "Date":"2022-05-02"},
+        {"a": "B", "Hours of study": 7, "Date":"2022-05-03"}, 
+        {"a": "C", "Hours of study": 4, "Date":"2022-05-04"},
+        {"a": "D", "Hours of study": 3, "Date":"2022-05-05"}, 
+        {"a": "E", "Hours of study": 6, "Date":"2022-05-06"}, 
+        {"a": "F", "Hours of study": 8, "Date":"2022-05-07"}]
+ 
+    },
+    "height": 200,
+  "width": 200,
+
+    "mark": {
+    "type": "bar",
+    "color": "#00ecff"},
+   
+    "encoding": {
+      "x": {"field": "Date", "type": "temporal", "axis": {"labelAngle": 0}},
+      "y": {"field": "Hours of study", "type": "quantitative"}
+    }
+  }

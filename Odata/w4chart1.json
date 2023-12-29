@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Amazon Deforestation",
+  "title": "Amazon Deforestation in Brazil 1988-2021",
+  "width": 200,
+  "height": 200,
+  "data": {
+    "url": "https://raw.githubusercontent.com/olilambourn/olilambourn.github.io/main/week4_chart1%20(3).csv"
+  },
+  "encoding": {
+    "x": {
+      "field": "Period",
+      "type": "temporal",
+      "title": "Year",
+      "axis": {
+        "grid": false,
+        "ticks": true,
+        "labelAngle": 70,
+        "labelFontSize": 9
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "color": "#b3e8e5"},
+      "encoding": {
+        "y": {
+          "field": "Estimated remaining forest coverin the Brazilian Amazon (km2)",
+          "type": "quantitative",
+          "title": "Estimated Remaining Forest Cover (km2)",
+          "axis": {
+            "grid": false,
+            "format": "~s"
+          }
+        }
+      }
+    },
+    {
+      "mark": {"color": "#ffb0b0", "type": "line", "interpolate": "natural"},
+      "encoding": {
+        "y": {
+          "field": "Annual forestloss (km2)",
+          "type": "quantitative",
+          "title": "Annual forestloss (km2)",
+          "axis": {
+            "titleColor": "#2f8f9d",
+            "format": "~s"
+          }
+        }
+      }
+    }
+  ],
+  "resolve": {"scale": {"y": "independent"}}
+}

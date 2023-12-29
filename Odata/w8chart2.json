@@ -1,0 +1,61 @@
+
+  {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+      "text": "Data Scientist Jobs Reported on LinkedIn",
+      "subtitle":["Uses CV analysis pre-LinkedIn release. Source: LinkedIn"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":9,
+      "anchor": "start",
+      "color": "black"},
+
+  "data": {
+    "values": [
+{"Year": "1984", "Number": 0.053999999999999999}, 
+{"Year": "1985", "Number": 0.068000000000000005},
+{"Year": "1986", "Number": 0.080000000000000002},
+{"Year": "1987", "Number": 0.098000000000000004},
+{"Year": "1988", "Number": 0.115},
+{"Year": "1989", "Number": 0.14399999999999999},
+{"Year": "1990", "Number": 0.185},
+{"Year": "1991", "Number": 0.20899999999999999},
+{"Year": "1992", "Number": 0.247},
+{"Year": "1993", "Number": 0.28899999999999998},
+{"Year": "1994", "Number": 0.35699999999999998},
+{"Year": "1995", "Number": 0.442},
+{"Year": "1996", "Number": 0.54200000000000004},
+{"Year": "1997", "Number": 0.65200000000000002},
+{"Year": "1998", "Number": 0.78000000000000003},
+{"Year": "1999", "Number": 0.92900000000000005},
+{"Year": "2000", "Number": 1.097},
+{"Year": "2001", "Number": 1.25},
+{"Year": "2002", "Number": 1.3680000000000001},
+{"Year": "2003", "Number": 1.5229999999999999},
+{"Year": "2004", "Number": 1.7789999999999999},
+{"Year": "2005", "Number": 2.0779999999999998},
+{"Year": "2006", "Number": 2.4100000000000001},
+{"Year": "2007", "Number": 2.8460000000000001},
+{"Year": "2008", "Number": 3.2810000000000001},
+{"Year": "2009", "Number": 3.8260000000000001},
+{"Year": "2010", "Number": 4.5369999999999999},
+{"Year": "2011", "Number": 5.4260000000000002},
+{"Year": "2012", "Number": 6.4690000000000003},
+{"Year": "2013", "Number": 7.7750000000000004},
+{"Year": "2014", "Number": 9.4049999999999994},
+{"Year": "2015", "Number": 11.433}
+]
+},
+  "height": 200,
+  "width": 200,
+
+  "mark": {"type": "line", "color": "#57ee10"},
+  "encoding": {
+    "x": {"field": "Year", "type": "temporal", "axis": {"labelAngle": -45}},
+    
+  "y": {
+    "field": "Number",
+    "type": "quantitative",
+    "title": "Data Scientists reported on LinkedIn ('000)"
+  }
+}
+}
