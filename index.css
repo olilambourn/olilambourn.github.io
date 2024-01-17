@@ -11,40 +11,9 @@ z-index: 999;
 
 /* Style body background color and width */
 body{
-  background-color: #f76;
-  background-image:
-    linear-gradient(30deg, #fee 13.5%, transparent 13.5%, transparent 86.5%, #fee 86.5%),
-    linear-gradient(-30deg, #fee 13.5%, transparent 13.5%, transparent 86.5%, #fee 86.5%),
-    linear-gradient(30deg, #dcc 13.5%, transparent 13.5%, transparent 86.5%, #dcc 86.5%),
-    linear-gradient(-30deg, #dcc 13.5%, transparent 13.5%, transparent 86.5%, #dcc 86.5%),
-    linear-gradient(30deg, #fee 13.5%, transparent 13.5%, transparent 86.5%, #fee 86.5%),
-    linear-gradient(-30deg, #fee 13.5%, transparent 13.5%, transparent 86.5%, #fee 86.5%),
-    linear-gradient(30deg, #dcc 13.5%, transparent 13.5%, transparent 86.5%, #dcc 86.5%),
-    linear-gradient(-30deg, #dcc 13.5%, transparent 13.5%, transparent 86.5%, #dcc 86.5%),
-    linear-gradient(45deg, #544 25%, transparent 25%, transparent 75%, #544 75%),
-    linear-gradient(45deg, #544 25%, transparent 25%, transparent 75%, #544 75%);
-  background-position:
-    0em 2em,
-    0em 2em,
-    2em 4em,
-    2em 4em,
-    4em 2em,
-    4em 2em,
-    6em 4em,
-    6em 4em,
-    0em 0em,
-    2em 2em;
-  background-size:
-    8em 4em,
-    8em 4em,
-    8em 4em,
-    8em 4em,
-    8em 4em,
-    8em 4em,
-    8em 4em,
-    8em 4em,
-    4em 4em,
-    4em 4em;
+background-color: #abccdf;
+max-width: 100%;
+margin: auto;
 }
 
 /* Style size and position of logo */
