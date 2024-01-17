@@ -14,7 +14,7 @@
 /*Styles stuff inside body */
 
 body {
-    --r: 56px; /* control the size */
+   --r: 56px; /* control the size */
   --c1: #3FB8AF /*color 1*/ 99%,#0000 101%;
   --c2: #FF9E9D /*color 2*/ 99%,#0000 101%;
   
