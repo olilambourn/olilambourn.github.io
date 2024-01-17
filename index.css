@@ -11,9 +11,8 @@ z-index: 999;
 
 /* Style body background color and width */
 body{
-background-color: #abccdf;
-max-width: 100%;
-margin: auto;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,150,167,1) 73%, rgba(0,212,255,1) 100%);
 }
 
 /* Style size and position of logo */
