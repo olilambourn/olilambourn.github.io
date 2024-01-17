@@ -46,18 +46,7 @@ body {
     #FF9E9D; /*color 2 again here (yes I got lazy defining a variable ) */
   background-size: calc(4*var(--s)) calc(6*var(--r));
 }
-/* Styles video container*/
 
-.video-container {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    display: flex;
-    overflow: hidden;
-    z-index: -1
-}
 /* Styles headings and text*/
 
 h1,h2,h3,p {
@@ -175,7 +164,10 @@ a {
     left: 50%;
     transform: translate(-50%,-50%)
 }
-
+/* LEFT-aligned section inside the top navigation */
+.topnav-left {
+  float: left;
+}
 .topnav-right {
     float: right
 }
