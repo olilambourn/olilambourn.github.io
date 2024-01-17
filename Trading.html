@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to my style sheet -->
+    <link rel="stylesheet" href="index.css">
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+   
+
+<head>
+<!--Scale to mobile browser-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Title for the page -->
+<title>Oli Lambourn </title>
+    
+  <h1>DATA SCIENCE</h1>
+  <!-- Header -->
+  <p> Oli Lambourn - 1937042 </p>
+  <hr />
+
+</head>
+
+<body>
+<img src="websitelogo.png" alt="Website logo" class="logo">
+    
+    <div class="video-container">
+      
+    <video playsinline autoplay muted loop poster="projectvideo.mp4">
+    <source src="projectvideo.mp4" type="video/mp4">
+</video>
+        </div>
+
+        
+    <!-- Top Navigation -->
+     <div class="topnav">
+     
+      <!-- Centered link -->
+  <div class="topnav-centered">
+    <a href="index.html" class="active">Final Project</a>
+  </div>
+  
+  <!-- Left-aligned link (default) -->
+ <div class="topnav-left">
+    <a href="portfolio.html">Portfolio</a>
+  </div>
+   <!-- Left-aligned link (default) -->        
+         <div class="topnav-left">
+    <a href="Trading.html">Trading</a>
+  </div>
+         
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+    <a href="https://github.com/olilambourn">GitHub</a>
+  </div>
+         
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+    <a href = "mailto: en20972@bristol.ac.uk">Email Me</a>
+  </div>
+
+</div>
+     
+
+<!-- This div contains a loading screen with a canvas element -->
+<div id="loading-screen">
+  <canvas id="c"></canvas>
+</div>
+
+<!-- This div contains a bio section with a button to toggle the bio text -->
+<div id="bio-container">
+  <button class="bio-button" onclick="revealBio()">Click for bio</button>
+  <p id="bio" style="display:none">Welcome to my first website. I am a third year Economics Student at the University of Bristol. This website serves the purpose of documenting progress throughout my 3rd year Data Science module. I will update this throughout the term, until my project has culminated .
+The tabs at the top of the page take you to the following pages: Final Project shows the work that shall be marked. Portfolio shows the material created throughout the module as I learn. GitHub takes you to the websites code repository. (Please note, if you are viewing on a mobile devide with 'low-battery mode' a play-button may appear in the background of the video. Turn mode off to allow this to disappear) Enjoy!. </p>
+
+<!-- This div shifts the content below the bio down when the bio is opened -->
+<div class="shift-down">
+
+  <!-- This div contains the main content of the page -->
+  <div class="content">
+
+  
+
+<!-- This script defines the function to reveal or hide the bio when the "Click for bio" button is clicked -->
+<script>
+  function revealBio() {
+    // Get the bio element and the content element
+    var bio = document.getElementById("bio");
+    var content = document.querySelector(".shift-down");
+    // Get the button element
+    var button = document.querySelector("button");
+
+    // If the bio is currently hidden, show it and shift the content down
+    if (bio.style.display === "none") {
+      bio.style.display = "block";
+      content.style.marginTop = "100px";
+      button.innerHTML = "Bio";
+    }
+    // If the bio is currently visible, hide it and shift the content back up
+    else {
+      bio.style.display = "none";
+      content.style.marginTop = "0";
+      button.innerHTML = "Click for bio";
+    }
+  }
+</script>
+
+<!-- This script hides the loading screen after the page has finished loading -->
+
+     <script>
+  function stopLoadingScreen() {
+    setTimeout(function() {
+      document.getElementById("loading-screen").style.display = "none";
+    }, 1000);
+  }
+
+  window.addEventListener("load", stopLoadingScreen);
+</script>
+
+  <script src="loading.js"></script>
+    
+    
+    </body>
+    
+  
+    
+    </script>
