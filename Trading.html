@@ -139,7 +139,82 @@ Join the Chaos: Are you ready to dive headfirst into the chaos and carnage of th
 
   <script src="loading.js"></script>
     
-    
+
+      <h1>Chess Leaderboard</h1>
+
+<div id="leaderboard"></div>
+
+<form id="gameForm">
+    <label for="player1">Player 1:</label>
+    <select id="player1" name="player1">
+        <option value="Tai">Tai</option>
+        <option value="Robbie">Robbie</option>
+        <option value="Jono">Jono</option>
+        <option value="Oli">Oli</option>
+        <option value="Matty">Matty</option>
+    </select>
+
+    <label for="player2">Player 2:</label>
+    <select id="player2" name="player2">
+        <option value="Tai">Tai</option>
+        <option value="Robbie">Robbie</option>
+        <option value="Jono">Jono</option>
+        <option value="Oli">Oli</option>
+        <option value="Matty">Matty</option>
+    </select>
+
+    <label for="winner">Winner:</label>
+    <select id="winner" name="winner">
+        <option value="player1">Player 1</option>
+        <option value="player2">Player 2</option>
+    </select>
+
+    <button type="button" onclick="logGame()">Log Game</button>
+</form>
+
+<script>
+    function logGame() {
+        var player1 = document.getElementById("player1").value;
+        var player2 = document.getElementById("player2").value;
+        var winner = document.getElementById("winner").value;
+
+        var result = {
+            "player1": player1,
+            "player2": player2,
+            "winner": winner
+        };
+
+        console.log("Logged game:", result);
+        // Here you can write code to send the result data to Python for processing
+    }
+
+    function displayLeaderboard() {
+        // You can replace this sample data with dynamic data from Python if needed
+        var players = [
+            { name: "Tai", rating: 1000 },
+            { name: "Robbie", rating: 1000 },
+            { name: "Jono", rating: 1000 },
+            { name: "Oli", rating: 1000 },
+            { name: "Matty", rating: 1000 }
+        ];
+
+        var leaderboard = document.getElementById("leaderboard");
+        leaderboard.innerHTML = "";
+
+        var table = document.createElement("table");
+        var headerRow = table.insertRow();
+        headerRow.innerHTML = "<th>Rank</th><th>Name</th><th>Rating</th>";
+
+        players.forEach(function(player, index) {
+            var row = table.insertRow();
+            row.innerHTML = `<td>${index + 1}</td><td>${player.name}</td><td>${player.rating}</td>`;
+        });
+
+        leaderboard.appendChild(table);
+    }
+
+    // Call the function to display the leaderboard when the page loads
+    displayLeaderboard();
     </body>
     
   
