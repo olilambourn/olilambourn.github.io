@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 
-    <title>Oli Lambourn</title>
+    <title>Bot Chess Bonanza</title>
 
     <!-- Header -->
     <h1>DATA SCIENCE</h1>
@@ -26,13 +26,6 @@
 <body>
     <!-- Logo -->
     <img src="websitelogo.png" alt="Website logo" class="logo">
-
-    <!-- Video container -->
-    <div class="video-container">
-        <video playsinline autoplay muted loop poster="projectvideo.mp4">
-            <source src="projectvideo.mp4" type="video/mp4">
-        </video>
-    </div>
 
     <!-- Top Navigation -->
     <div class="topnav">
@@ -70,7 +63,7 @@
     <!-- Bio container -->
     <div id="bio-container">
         <button class="bio-button" onclick="revealBio()">Click for bio</button>
-        <p>
+        <p id="bio" style="display:none">
             Welcome to the Bot Chess Bash, the ultimate battleground where manly men, quirky NPCs, and Rubik's Cube aficionados clash in a raucous riot of chess mayhem! Brace yourself for a showdown like no other as Tai, Jono, Robbie, Oli, and Matty - our ragtag band of contenders - strut their stuff on the chessboard catwalk.
 
             Features:
@@ -91,6 +84,46 @@
         <!-- Shift content down when bio is opened -->
         <div class="shift-down">
             <!-- Main content of the page -->
+            <!-- Leaderboard -->
+            <div id="leaderboard">
+                <h2>Leaderboard</h2>
+                <p>Leaderboard will be displayed here</p>
+            </div>
+
+            <!-- Game logging form -->
+            <div id="log-game">
+                <h2>Log Game</h2>
+                <form action="/log_game" method="POST">
+                    <label for="player1">Player 1:</label>
+                    <input type="text" id="player1" name="player1" required>
+                    <label for="player2">Player 2:</label>
+                    <input type="text" id="player2" name="player2" required>
+                    <label for="winner">Winner:</label>
+                    <select id="winner" name="winner" required>
+                        <option value="player1">Player 1</option>
+                        <option value="player2">Player 2</option>
+                    </select>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Log Game</button>
+                </form>
+            </div>
+
+            <!-- View all games -->
+            <div id="view-all-games">
+                <h2>All Games</h2>
+                <p>All games will be displayed here</p>
+            </div>
+
+            <!-- Leaderboard reset form -->
+            <div id="reset-leaderboard">
+                <h2>Reset Leaderboard</h2>
+                <form action="/reset_leaderboard" method="POST">
+                    <label for="reset-password">Reset Password:</label>
+                    <input type="password" id="reset-password" name="password" required>
+                    <button type="submit">Reset Leaderboard</button>
+                </form>
+            </div>
 
             <!-- Script to reveal or hide bio -->
             <script>
