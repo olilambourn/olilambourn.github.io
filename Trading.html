@@ -1,222 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
+<head>
+    <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Link to my style sheet -->
+    <!-- Link to CSS stylesheet -->
     <link rel="stylesheet" href="index.css">
 
-    <!--The next three lines allow the Vega embed-->
+    <!-- Script tags for Vega -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
-   
 
-<head>
-<!--Scale to mobile browser-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Title for the page -->
-<title>Oli Lambourn </title>
-    
-  <h1>DATA SCIENCE</h1>
-  <!-- Header -->
-  <p> Oli Lambourn - 1937042 </p>
-  <hr />
+    <title>Oli Lambourn</title>
 
+    <!-- Header -->
+    <h1>DATA SCIENCE</h1>
+    <p>Oli Lambourn - 1937042</p>
+    <hr />
 </head>
 
 <body>
-<img src="websitelogo.png" alt="Website logo" class="logo">
-    
+    <!-- Logo -->
+    <img src="websitelogo.png" alt="Website logo" class="logo">
+
+    <!-- Video container -->
     <div class="video-container">
-      
-    <video playsinline autoplay muted loop poster="projectvideo.mp4">
-    <source src="projectvideo.mp4" type="video/mp4">
-</video>
+        <video playsinline autoplay muted loop poster="projectvideo.mp4">
+            <source src="projectvideo.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Top Navigation -->
+    <div class="topnav">
+        <!-- Centered link -->
+        <div class="topnav-centered">
+            <a href="index.html" class="active">Final Project</a>
         </div>
 
-        
-    <!-- Top Navigation -->
-     <div class="topnav">
-     
-      <!-- Centered link -->
-  <div class="topnav-centered">
-    <a href="index.html" class="active">Final Project</a>
-  </div>
-  
-  <!-- Left-aligned link (default) -->
- <div class="topnav-left">
-    <a href="portfolio.html">Portfolio</a>
-  </div>
-   <!-- Left-aligned link (default) -->        
-         <div class="topnav-left">
-    <a href="Trading.html">Chess</a>
-  </div>
-         
-  <!-- Right-aligned links -->
-  <div class="topnav-right">
-    <a href="https://github.com/olilambourn">GitHub</a>
-  </div>
-         
-  <!-- Right-aligned links -->
-  <div class="topnav-right">
-    <a href = "mailto: en20972@bristol.ac.uk">Email Me</a>
-  </div>
+        <!-- Left-aligned link (default) -->
+        <div class="topnav-left">
+            <a href="portfolio.html">Portfolio</a>
+        </div>
 
-</div>
-     
+        <!-- Left-aligned link (default) -->
+        <div class="topnav-left">
+            <a href="Trading.html">Chess</a>
+        </div>
 
-<!-- This div contains a loading screen with a canvas element -->
-<div id="loading-screen">
-  <canvas id="c"></canvas>
-</div>
+        <!-- Right-aligned links -->
+        <div class="topnav-right">
+            <a href="https://github.com/olilambourn">GitHub</a>
+        </div>
 
-<!-- This div contains a bio section with a button to toggle the bio text -->
-<div id="bio-container">
-  <button class="bio-button" onclick="revealBio()">Click for bio</button>
-  <p id="bio" style="display:none"> Welcome to the Bot Chess Bash, the ultimate battleground where manly men, quirky NPCs, and Rubik's Cube aficionados clash in a raucous riot of chess mayhem! Brace yourself for a showdown like no other as Tai, Jono, Robbie, Oli, and Matty - our ragtag band of contenders - strut their stuff on the chessboard catwalk.
+        <!-- Right-aligned links -->
+        <div class="topnav-right">
+            <a href="mailto:en20972@bristol.ac.uk">Email Me</a>
+        </div>
+    </div>
 
-Features:
+    <!-- Loading screen -->
+    <div id="loading-screen">
+        <canvas id="c"></canvas>
+    </div>
 
-Leaderboard of Legends: Feast your eyes on the leaderboard, where Tai, Jono, Robbie, Oli, and Matty - our valiant warriors - and their pixelated cronies wage war for dominance. Witness the ferocious battle as they maneuver their way through the chess arena, each move bringing them closer to glory or shame.
+    <!-- Bio container -->
+    <div id="bio-container">
+        <button class="bio-button" onclick="revealBio()">Click for bio</button>
+        <p id="bio" style="display:none">
+            Welcome to the Bot Chess Bash, the ultimate battleground where manly men, quirky NPCs, and Rubik's Cube aficionados clash in a raucous riot of chess mayhem! Brace yourself for a showdown like no other as Tai, Jono, Robbie, Oli, and Matty - our ragtag band of contenders - strut their stuff on the chessboard catwalk.
 
-Game Logging Gala: Prepare to be entertained as players log their epic clashes in the annals of chess lore. From Tai's audacious gambits to Jono's cunning strategies, Robbie's unpredictable antics, Oli's unwavering determination, and Matty's quirky charm, every game is a rollercoaster of thrills and spills.
+            Features:
 
-Usage:
+            Leaderboard of Legends: Feast your eyes on the leaderboard, where Tai, Jono, Robbie, Oli, and Matty - our valiant warriors - and their pixelated cronies wage war for dominance. Witness the ferocious battle as they maneuver their way through the chess arena, each move bringing them closer to glory or shame.
 
-Enter the Fray: Strap in for a wild ride through the chaotic world of chess combat, where Tai, Jono, Robbie, Oli, and Matty - our fearless fighters - throw down the gauntlet. Choose your champion and prepare to unleash your inner chess beast alongside these larger-than-life personalities!
+            Game Logging Gala: Prepare to be entertained as players log their epic clashes in the annals of chess lore. From Tai's audacious gambits to Jono's cunning strategies, Robbie's unpredictable antics, Oli's unwavering determination, and Matty's quirky charm, every game is a rollercoaster of thrills and spills.
 
-Marvel at the Madness: Brace yourself for the spectacle as our intrepid contenders navigate the treacherous waters of the chessboard with gusto. With Rubik's Cubes in hand and fire in their eyes, they'll stop at nothing to claim victory in this epic clash of titans.
+            Usage:
 
-Join the Chaos: Are you ready to dive headfirst into the chaos and carnage of the Bot Chess Bash? Whether you're a seasoned chess aficionado or a clueless bystander, there's a place for you in this wild world of chess insanity. So grab your Rubik's Cube, summon your inner beast, and prepare for a chess showdown unlike any other! </p>
+            Enter the Fray: Strap in for a wild ride through the chaotic world of chess combat, where Tai, Jono, Robbie, Oli, and Matty - our fearless fighters - throw down the gauntlet. Choose your champion and prepare to unleash your inner chess beast alongside these larger-than-life personalities!
 
-<!-- This div shifts the content below the bio down when the bio is opened -->
-<div class="shift-down">
+            Marvel at the Madness: Brace yourself for the spectacle as our intrepid contenders navigate the treacherous waters of the chessboard with gusto. With Rubik's Cubes in hand and fire in their eyes, they'll stop at nothing to claim victory in this epic clash of titans.
 
-  <!-- This div contains the main content of the page -->
-  <div class="content">
+            Join the Chaos: Are you ready to dive headfirst into the chaos and carnage of the Bot Chess Bash? Whether you're a seasoned chess aficionado or a clueless bystander, there's a place for you in this wild world of chess insanity. So grab your Rubik's Cube, summon your inner beast, and prepare for a chess showdown unlike any other!
+        </p>
 
-  
+        <!-- Shift content down when bio is opened -->
+        <div class="shift-down">
+            <!-- Main content of the page -->
 
-<!-- This script defines the function to reveal or hide the bio when the "Click for bio" button is clicked -->
-<script>
-  function revealBio() {
-    // Get the bio element and the content element
-    var bio = document.getElementById("bio");
-    var content = document.querySelector(".shift-down");
-    // Get the button element
-    var button = document.querySelector("button");
+            <!-- Script to reveal or hide bio -->
+            <script>
+                function revealBio() {
+                    var bio = document.getElementById("bio");
+                    var content = document.querySelector(".shift-down");
+                    var button = document.querySelector("button");
 
-    // If the bio is currently hidden, show it and shift the content down
-    if (bio.style.display === "none") {
-      bio.style.display = "block";
-      content.style.marginTop = "100px";
-      button.innerHTML = "Bio";
-    }
-    // If the bio is currently visible, hide it and shift the content back up
-    else {
-      bio.style.display = "none";
-      content.style.marginTop = "0";
-      button.innerHTML = "Click for bio";
-    }
-  }
-</script>
+                    if (bio.style.display === "none") {
+                        bio.style.display = "block";
+                        content.style.marginTop = "100px";
+                        button.innerHTML = "Bio";
+                    } else {
+                        bio.style.display = "none";
+                        content.style.marginTop = "0";
+                        button.innerHTML = "Click for bio";
+                    }
+                }
+            </script>
 
-<!-- This script hides the loading screen after the page has finished loading -->
+            <!-- Script to hide loading screen -->
+            <script>
+                function stopLoadingScreen() {
+                    setTimeout(function () {
+                        document.getElementById("loading-screen").style.display = "none";
+                    }, 1000);
+                }
 
-     <script>
-  function stopLoadingScreen() {
-    setTimeout(function() {
-      document.getElementById("loading-screen").style.display = "none";
-    }, 1000);
-  }
+                window.addEventListener("load", stopLoadingScreen);
+            </script>
+            <script src="loading.js"></script>
+        </div>
+    </div>
+</body>
 
-  window.addEventListener("load", stopLoadingScreen);
-</script>
-
-  <script src="loading.js"></script>
-    
-
-      <h1>Chess Leaderboard</h1>
-
-<div id="leaderboard"></div>
-
-<form id="gameForm">
-    <label for="player1">Player 1:</label>
-    <select id="player1" name="player1">
-        <option value="Tai">Tai</option>
-        <option value="Robbie">Robbie</option>
-        <option value="Jono">Jono</option>
-        <option value="Oli">Oli</option>
-        <option value="Matty">Matty</option>
-    </select>
-
-    <label for="player2">Player 2:</label>
-    <select id="player2" name="player2">
-        <option value="Tai">Tai</option>
-        <option value="Robbie">Robbie</option>
-        <option value="Jono">Jono</option>
-        <option value="Oli">Oli</option>
-        <option value="Matty">Matty</option>
-    </select>
-
-    <label for="winner">Winner:</label>
-    <select id="winner" name="winner">
-        <option value="player1">Player 1</option>
-        <option value="player2">Player 2</option>
-    </select>
-
-    <button type="button" onclick="logGame()">Log Game</button>
-</form>
-
-<script>
-    function logGame() {
-        var player1 = document.getElementById("player1").value;
-        var player2 = document.getElementById("player2").value;
-        var winner = document.getElementById("winner").value;
-
-        var result = {
-            "player1": player1,
-            "player2": player2,
-            "winner": winner
-        };
-
-        console.log("Logged game:", result);
-        // Here you can write code to send the result data to Python for processing
-    }
-
-    function displayLeaderboard() {
-        // You can replace this sample data with dynamic data from Python if needed
-        var players = [
-            { name: "Tai", rating: 1000 },
-            { name: "Robbie", rating: 1000 },
-            { name: "Jono", rating: 1000 },
-            { name: "Oli", rating: 1000 },
-            { name: "Matty", rating: 1000 }
-        ];
-
-        var leaderboard = document.getElementById("leaderboard");
-        leaderboard.innerHTML = "";
-
-        var table = document.createElement("table");
-        var headerRow = table.insertRow();
-        headerRow.innerHTML = "<th>Rank</th><th>Name</th><th>Rating</th>";
-
-        players.forEach(function(player, index) {
-            var row = table.insertRow();
-            row.innerHTML = `<td>${index + 1}</td><td>${player.name}</td><td>${player.rating}</td>`;
-        });
-
-        leaderboard.appendChild(table);
-    }
-
-    // Call the function to display the leaderboard when the page loads
-    displayLeaderboard();
-    </body>
-    
-  
-    
-    </script>
+</html>
