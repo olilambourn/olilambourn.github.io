@@ -80,35 +80,48 @@
 
             Join the Chaos: Are you ready to dive headfirst into the chaos and carnage of the Bot Chess Bash? Whether you're a seasoned chess aficionado or a clueless bystander, there's a place for you in this wild world of chess insanity. So grab your Rubik's Cube, summon your inner beast, and prepare for a chess showdown unlike any other!
         </p>
-<!-- Input fields for player names and game results -->
-  <label for="player">Player:</label>
-  <input type="text" id="player" name="player" required><br>
 
-  <label for="result">Result:</label>
-  <select id="result" name="result">
-    <option value="win">Win</option>
-    <option value="lose">Lose</option>
-    <option value="draw">Draw</option>
-  </select><br>
-
-  <!-- Buttons for submitting, deleting, and resetting data -->
-  <button id="submit-game">Submit Game</button>
-  <button id="delete-game">Delete Game</button>
-  <button id="reset-data">Reset Data</button>
-
-  <!-- Leaderboard display -->
-  <h2>Leaderboard</h2>
-  <div id="leaderboard"></div>
-        <div id="leaderboard">
-        <!-- Leaderboard will be displayed here -->
-    </div>
-    <div id="game-history">
-        <!-- Game history will be displayed here -->
-    </div>
+<h1>Chess Leaderboard</h1>
     <div id="game-form">
-        <!-- Game result form goes here -->
+        <label for="player1">Player 1:</label>
+        <select id="player1" name="player1">
+            <option value="Tai">Tai</option>
+            <option value="Jono">Jono</option>
+            <option value="Robbie">Robbie</option>
+            <option value="Matty">Matty</option>
+            <option value="Oli">Oli</option>
+        </select><br>
+
+        <label for="player2">Player 2:</label>
+        <select id="player2" name="player2">
+            <option value="Tai">Tai</option>
+            <option value="Jono">Jono</option>
+            <option value="Robbie">Robbie</option>
+            <option value="Matty">Matty</option>
+            <option value="Oli">Oli</option>
+        </select><br>
+
+        <label for="result">Result:</label>
+        <select id="result" name="result">
+            <option value="win">Win</option>
+            <option value="lose">Lose</option>
+            <option value="draw">Draw</option>
+        </select><br>
+
+        <button id="submit-game">Submit Game</button>
+        <button id="delete-game">Delete Game</button>
+        <button id="reset-data">Reset Data</button>
     </div>
-    <script src="script.js"></script>
+
+    <h2>Leaderboard</h2>
+    <div id="leaderboard"></div>
+
+    <h2>Game Log</h2>
+    <div id="game-history"></div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js"></script>
+    <script src="app.js"></script>
 
             <!-- Script to reveal or hide bio -->
             <script>
@@ -143,11 +156,7 @@
         </div>
     </div>
 
-<!-- Firebase SDK -->
-<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js"></script>
 
-    
 </body>
 
 </html>
