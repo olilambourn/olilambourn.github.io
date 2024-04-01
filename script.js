@@ -11,51 +11,19 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
 
-// Function to submit a game
-document.getElementById('submit-game').addEventListener('click', function() {
-    const player1 = document.getElementById('player1').value;
-    const player2 = document.getElementById('player2').value;
-    const result = document.getElementById('result').value;
-
-    db.ref('games').push({
-        player1: player1,
-        player2: player2,
-        result: result
-    });
-});
-
-// Function to delete a game (password protected)
-document.getElementById('delete-game').addEventListener('click', function() {
-    const password = prompt("Enter password to delete game:");
-    if (password === "bot") {
-        const gameId = prompt("Enter ID of game to delete:");
-        db.ref('games').child(gameId).remove();
-    } else {
-        alert("Incorrect password!");
-    }
-});
-
-// Function to reset data (password protected)
-document.getElementById('reset-data').addEventListener('click', function() {
-    const password = prompt("Enter password to reset data:");
-    if (password === "botsystemfailure") {
-        db.ref('games').remove();
-    } else {
-        alert("Incorrect password!");
-    }
-});
-
-// Display leaderboard and game log
+// Function to display leaderboard and game log
 function displayData() {
     db.ref('games').on('value', function(snapshot) {
         const games = snapshot.val();
         let leaderboard = {};
         let gameLog = "";
+
         if (games) {
             Object.values(games).forEach(game => {
                 // Update leaderboard
                 if (!leaderboard[game.player1]) leaderboard[game.player1] = 0;
                 if (!leaderboard[game.player2]) leaderboard[game.player2] = 0;
+
                 if (game.result === 'win') {
                     leaderboard[game.player1] += 1;
                     leaderboard[game.player2] -= 1;
@@ -63,6 +31,7 @@ function displayData() {
                     leaderboard[game.player1] -= 1;
                     leaderboard[game.player2] += 1;
                 }
+
                 // Update game log
                 gameLog += `${game.player1} vs ${game.player2}: ${game.result}\n`;
             });
@@ -70,11 +39,19 @@ function displayData() {
 
         // Sort and display leaderboard
         const sortedLeaderboard = Object.entries(leaderboard).sort((a, b) => b[1] - a[1]);
-        document.getElementById('leaderboard').innerHTML = "<ol>";
+        const leaderboardTable = document.createElement('table');
+        leaderboardTable.innerHTML = "<tr><th>Player</th><th>Score</th></tr>";
+
         sortedLeaderboard.forEach(entry => {
-            document.getElementById('leaderboard').innerHTML += `<li>${entry[0]}: ${entry[1]}</li>`;
+            const row = leaderboardTable.insertRow();
+            const cell1 = row.insertCell(0);
+            const cell2 = row.insertCell(1);
+            cell1.textContent = entry[0];
+            cell2.textContent = entry[1];
         });
-        document.getElementById('leaderboard').innerHTML += "</ol>";
+
+        document.getElementById('leaderboard').innerHTML = ""; // Clear existing content
+        document.getElementById('leaderboard').appendChild(leaderboardTable);
 
         // Display game log
         document.getElementById('game-history').innerText = gameLog;
