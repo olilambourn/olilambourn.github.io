@@ -81,49 +81,16 @@
             Join the Chaos: Are you ready to dive headfirst into the chaos and carnage of the Bot Chess Bash? Whether you're a seasoned chess aficionado or a clueless bystander, there's a place for you in this wild world of chess insanity. So grab your Rubik's Cube, summon your inner beast, and prepare for a chess showdown unlike any other!
         </p>
 
-        <!-- Shift content down when bio is opened -->
-        <div class="shift-down">
-            <!-- Main content of the page -->
-            <!-- Leaderboard -->
-            <div id="leaderboard">
-                <h2>Leaderboard</h2>
-                <p>Leaderboard will be displayed here</p>
-            </div>
-
-            <!-- Game logging form -->
-            <div id="log-game">
-                <h2>Log Game</h2>
-                <form action="/log_game" method="POST">
-                    <label for="player1">Player 1:</label>
-                    <input type="text" id="player1" name="player1" required>
-                    <label for="player2">Player 2:</label>
-                    <input type="text" id="player2" name="player2" required>
-                    <label for="winner">Winner:</label>
-                    <select id="winner" name="winner" required>
-                        <option value="player1">Player 1</option>
-                        <option value="player2">Player 2</option>
-                    </select>
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" required>
-                    <button type="submit">Log Game</button>
-                </form>
-            </div>
-
-            <!-- View all games -->
-            <div id="view-all-games">
-                <h2>All Games</h2>
-                <p>All games will be displayed here</p>
-            </div>
-
-            <!-- Leaderboard reset form -->
-            <div id="reset-leaderboard">
-                <h2>Reset Leaderboard</h2>
-                <form action="/reset_leaderboard" method="POST">
-                    <label for="reset-password">Reset Password:</label>
-                    <input type="password" id="reset-password" name="password" required>
-                    <button type="submit">Reset Leaderboard</button>
-                </form>
-            </div>
+        <div id="leaderboard">
+        <!-- Leaderboard will be displayed here -->
+    </div>
+    <div id="game-history">
+        <!-- Game history will be displayed here -->
+    </div>
+    <div id="game-form">
+        <!-- Game result form goes here -->
+    </div>
+    <script src="script.js"></script>
 
             <!-- Script to reveal or hide bio -->
             <script>
